@@ -7,4 +7,13 @@
 * On AMD Ryzen 7 2700 Eight-Core Processor; 16GB DDR4; Samsung SSD 990 EVO Plus 2TB; Windows: Version 10.0.26200.7623.
 * Dotnet 10.0.300
 
+## Results
+
+| | Mean (ms) | SEM (ms) |
+|---|---|---|
+| current | 10,180 | 651 |
+| pr | 13,812 | 706 |
+
+The PR is **35.7% slower** than current (3,632 ms difference). The error bars do not overlap, indicating a clear and consistent regression.
+
 <img src="./comparison.png">
