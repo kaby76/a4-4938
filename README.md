@@ -7,13 +7,30 @@
 * On AMD Ryzen 7 2700 Eight-Core Processor; 16GB DDR4; Samsung SSD 990 EVO Plus 2TB; Windows: Version 10.0.26200.7623.
 * Dotnet 10.0.300
 
+## Input stream construction per mode
+
+| Mode | Input stream |
+|---|---|
+| (default) | `CharsetDetector.DetectFromFile(path)` → `CharStreams.fromPath(path, enc)` |
+| `-old` | `new AntlrInputStream(new FileStream(path, FileMode.Open))` |
+| `-new` (pr only) | `new CharSpanInputStream(new FileStream(path, FileMode.Open))` |
+
+`-new` uses `CharSpanInputStream`, the new stream type introduced by the PR. `-old` uses the legacy `AntlrInputStream`. The default path auto-detects file encoding via `UtfUnknown.CharsetDetector` and then calls `CharStreams.fromPath`.
+
 ## Results
 
 | | Mean (ms) | SEM (ms) |
 |---|---|---|
-| current | 10,180 | 651 |
-| pr | 13,812 | 706 |
+| current | 10,302 | 695 |
+| pr | 13,544 | 612 |
+| current -old | 9,482 | 67 |
+| pr -old | 12,699 | 73 |
+| pr -new | 12,788 | 156 |
 
-The PR is **35.7% slower** than current (3,632 ms difference). The error bars do not overlap, indicating a clear and consistent regression.
+- **pr vs current** (default): 31.5% slower (3,242 ms difference)
+- **pr -old vs current -old**: 33.9% slower (3,217 ms difference)
+- **pr -new vs current -old**: 34.9% slower (3,306 ms difference)
+
+None of the PR's code paths (default, `-old`, `-new`) recover the regression relative to the equivalent current baseline. The error bars do not overlap in any pairing, indicating clear and consistent regressions across all modes.
 
 <img src="./comparison.png">
