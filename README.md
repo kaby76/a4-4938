@@ -22,15 +22,15 @@
 
 | | Mean (ms) | SEM (ms) |
 |---|---|---|
-| current | 9,889 | 381 |
-| pr | 6,856 | 347 |
-| current -old | 9,411 | 137 |
-| pr -old | 6,412 | 169 |
-| pr -new | 6,755 | 220 |
+| current | 10,254 | 354 |
+| pr | 7,057 | 373 |
+| current -old | 9,749 | 47 |
+| pr -old | 6,600 | 41 |
+| pr -new | 6,461 | 22 |
 
-- **pr vs current** (default): 30.7% faster (3,034 ms difference)
-- **pr -old vs current -old**: 31.9% faster (2,999 ms difference)
-- **pr -new vs current -old**: 28.2% faster (2,656 ms difference)
+- **pr vs current** (default): 31.2% faster (3,197 ms difference)
+- **pr -old vs current -old**: 32.3% faster (3,149 ms difference)
+- **pr -new vs current -old**: 33.7% faster (3,288 ms difference)
 
 All three of the PR's code paths are substantially faster than the equivalent current baseline. The error bars do not overlap in any pairing, indicating clear and consistent improvements across all modes.
 

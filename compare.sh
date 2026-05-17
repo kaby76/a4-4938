@@ -34,9 +34,11 @@ pushd pr
 bash build.sh
 popd
 
-# Run each Test.exe 5 times and collect runtimes (milliseconds)
+N=10
+
+# Run each Test.exe $N times and collect runtimes (milliseconds)
 current_times=()
-for i in {1..5}; do
+for i in $(seq 1 $N); do
 	start=$(date +%s%N)
 	pushd current
 	./bin/Release/net10.0/Test.exe ../examples/*.cs
@@ -46,7 +48,7 @@ for i in {1..5}; do
 done
 
 pr_times=()
-for i in {1..5}; do
+for i in $(seq 1 $N); do
 	start=$(date +%s%N)
 	pushd pr
 	./bin/Release/net10.0/Test.exe ../examples/*.cs
@@ -56,7 +58,7 @@ for i in {1..5}; do
 done
 
 current_old_times=()
-for i in {1..5}; do
+for i in $(seq 1 $N); do
 	start=$(date +%s%N)
 	pushd current
 	./bin/Release/net10.0/Test.exe -old ../examples/*.cs
@@ -66,7 +68,7 @@ for i in {1..5}; do
 done
 
 pr_old_times=()
-for i in {1..5}; do
+for i in $(seq 1 $N); do
 	start=$(date +%s%N)
 	pushd pr
 	./bin/Release/net10.0/Test.exe -old ../examples/*.cs
@@ -76,7 +78,7 @@ for i in {1..5}; do
 done
 
 pr_new_times=()
-for i in {1..5}; do
+for i in $(seq 1 $N); do
 	start=$(date +%s%N)
 	pushd pr
 	./bin/Release/net10.0/Test.exe -new ../examples/*.cs
@@ -92,6 +94,15 @@ current_old_vec=$(IFS=','; echo "${current_old_times[*]}")
 pr_old_vec=$(IFS=','; echo "${pr_old_times[*]}")
 pr_new_vec=$(IFS=','; echo "${pr_new_times[*]}")
 
+# Save raw timing data to file
+{
+	printf "%-15s %s\n" "current:"     "${current_times[*]}"
+	printf "%-15s %s\n" "pr:"          "${pr_times[*]}"
+	printf "%-15s %s\n" "current-old:" "${current_old_times[*]}"
+	printf "%-15s %s\n" "pr-old:"      "${pr_old_times[*]}"
+	printf "%-15s %s\n" "pr-new:"      "${pr_new_times[*]}"
+} > times.txt
+
 # Generate bar chart with standard error bars via Octave
 octave --no-gui << EOF
 current_times     = [${current_vec}];
@@ -104,15 +115,25 @@ n = length(current_times);
 means = [mean(current_times), mean(pr_times), mean(current_old_times), mean(pr_old_times), mean(pr_new_times)];
 sems  = [std(current_times), std(pr_times), std(current_old_times), std(pr_old_times), std(pr_new_times)] / sqrt(n);
 
+% Colors: blue for current variants, orange for pr variants
+colors = [0.25 0.55 0.85;  % current
+          0.95 0.55 0.15;  % pr
+          0.25 0.55 0.85;  % current -old
+          0.95 0.55 0.15;  % pr -old
+          0.85 0.35 0.55]; % pr -new
+
 fig = figure('visible', 'off');
-hb = bar(means);
-set(hb, 'FaceColor', [0.4 0.6 0.9]);
 hold on;
+for k = 1:5
+	hb = bar(k, means(k), 0.4);
+	set(hb, 'FaceColor', colors(k,:));
+end
 he = errorbar(1:5, means, sems, '.k');
 set(he, 'LineWidth', 2);
-set(gca, 'XTick', 1:5, 'XTickLabel', {'current', 'pr', 'current -old', 'pr -old', 'pr -new'});
+labels = {'current', 'pr', 'current -old', 'pr -old', 'pr -new'};
+set(gca, 'XTick', 1:5, 'XTickLabel', labels, 'XTickLabelRotation', 30);
 ylabel('Time (ms)');
-title('Runtime Comparison (n=5, error bars = SEM)');
+title(['Runtime Comparison (n=' num2str(n) ', error bars = SEM)']);
 grid on;
 saveas(fig, 'comparison.png');
 disp('Saved comparison.png');
