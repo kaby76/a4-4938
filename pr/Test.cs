@@ -24,6 +24,7 @@ public class Program
     static bool show_token_count = false;
     static long total_count = 0;
     static bool old = false;
+    static bool @new = false;
     static bool two_byte = false;
     static int exit_code = 0;
     static string file_encoding = "";
@@ -47,10 +48,14 @@ public class Program
             {
                 two_byte = true;
             }
-            else if (args[i] == "-old")
-            {
-                old = true;
-            }
+	    else if (args[i] == "-old")
+	    {
+		    old = true;
+	    }
+	    else if (args[i] == "-new")
+	    {
+		    @new = true;
+	    }
             else if (args[i] == "-prefix")
             {
                 prefix = args[++i] + " ";
@@ -149,6 +154,11 @@ public class Program
             FileStream fs = new FileStream(input, FileMode.Open);
             str = new Antlr4.Runtime.AntlrInputStream(fs);
         }
+	else if (@new)
+	{
+		FileStream fs = new FileStream(input, FileMode.Open);
+		str = new Antlr4.Runtime.CharSpanInputStream(fs);
+	}
         else if (file_encoding == null || file_encoding == "")
         {
             var detected = CharsetDetector.DetectFromFile(input);
