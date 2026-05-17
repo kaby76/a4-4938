@@ -2118,6 +2118,7 @@ public partial class CSharpParser : CSharpParserBase {
 				}
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -2213,6 +2214,7 @@ public partial class CSharpParser : CSharpParserBase {
 				type_parameter();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -2222,6 +2224,7 @@ public partial class CSharpParser : CSharpParserBase {
 				value_type();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -2231,6 +2234,7 @@ public partial class CSharpParser : CSharpParserBase {
 				reference_type();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -2290,6 +2294,7 @@ public partial class CSharpParser : CSharpParserBase {
 				non_nullable_reference_type();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -2358,6 +2363,7 @@ public partial class CSharpParser : CSharpParserBase {
 				delegate_type();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -2367,6 +2373,7 @@ public partial class CSharpParser : CSharpParserBase {
 				interface_type();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -2376,6 +2383,7 @@ public partial class CSharpParser : CSharpParserBase {
 				class_type();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -2383,6 +2391,7 @@ public partial class CSharpParser : CSharpParserBase {
 				array_type();
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -2667,6 +2676,7 @@ public partial class CSharpParser : CSharpParserBase {
 				value_type();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -2674,6 +2684,7 @@ public partial class CSharpParser : CSharpParserBase {
 				class_type();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -2681,6 +2692,7 @@ public partial class CSharpParser : CSharpParserBase {
 				interface_type();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -2688,6 +2700,7 @@ public partial class CSharpParser : CSharpParserBase {
 				delegate_type();
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -2695,6 +2708,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_DYNAMIC);
 				}
 				break;
+
 			case 6:
 				EnterOuterAlt(_localctx, 6);
 				{
@@ -2702,6 +2716,7 @@ public partial class CSharpParser : CSharpParserBase {
 				type_parameter();
 				}
 				break;
+
 			case 7:
 				EnterOuterAlt(_localctx, 7);
 				{
@@ -2956,6 +2971,7 @@ public partial class CSharpParser : CSharpParserBase {
 				non_nullable_value_type();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -3015,6 +3031,7 @@ public partial class CSharpParser : CSharpParserBase {
 				struct_type();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -3742,6 +3759,7 @@ public partial class CSharpParser : CSharpParserBase {
 				type_();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -3855,6 +3873,7 @@ public partial class CSharpParser : CSharpParserBase {
 				value_type();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -3971,6 +3990,7 @@ public partial class CSharpParser : CSharpParserBase {
 				declaration_pattern();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -3980,6 +4000,7 @@ public partial class CSharpParser : CSharpParserBase {
 				constant_pattern();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -3987,6 +4008,7 @@ public partial class CSharpParser : CSharpParserBase {
 				var_pattern();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -3996,6 +4018,7 @@ public partial class CSharpParser : CSharpParserBase {
 				positional_pattern();
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -4003,6 +4026,7 @@ public partial class CSharpParser : CSharpParserBase {
 				property_pattern();
 				}
 				break;
+
 			case 6:
 				EnterOuterAlt(_localctx, 6);
 				{
@@ -4110,6 +4134,7 @@ public partial class CSharpParser : CSharpParserBase {
 				discard_designation();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -4726,6 +4751,7 @@ public partial class CSharpParser : CSharpParserBase {
 				pattern();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -4861,6 +4887,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RBRACE);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -5147,6 +5174,7 @@ public partial class CSharpParser : CSharpParserBase {
 				expression();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -5156,6 +5184,7 @@ public partial class CSharpParser : CSharpParserBase {
 				variable_reference();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -5165,6 +5194,7 @@ public partial class CSharpParser : CSharpParserBase {
 				variable_reference();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -5336,30 +5366,35 @@ public partial class CSharpParser : CSharpParserBase {
 				literal();
 				}
 				break;
+
 			case 2:
 				{
 				State = 1152;
 				interpolated_string_expression();
 				}
 				break;
+
 			case 3:
 				{
 				State = 1153;
 				simple_name();
 				}
 				break;
+
 			case 4:
 				{
 				State = 1154;
 				tuple_expression();
 				}
 				break;
+
 			case 5:
 				{
 				State = 1155;
 				parenthesized_expression();
 				}
 				break;
+
 			case 6:
 				{
 				State = 1156;
@@ -5381,6 +5416,7 @@ public partial class CSharpParser : CSharpParserBase {
 				 this.AsMemberAccess(_localctx); 
 				}
 				break;
+
 			case 7:
 				{
 				State = 1164;
@@ -5402,102 +5438,119 @@ public partial class CSharpParser : CSharpParserBase {
 				 this.AsMemberAccess(_localctx); 
 				}
 				break;
+
 			case 8:
 				{
 				State = 1172;
 				this_access();
 				}
 				break;
+
 			case 9:
 				{
 				State = 1173;
 				base_access();
 				}
 				break;
+
 			case 10:
 				{
 				State = 1174;
 				array_creation_expression();
 				}
 				break;
+
 			case 11:
 				{
 				State = 1175;
 				object_creation_expression();
 				}
 				break;
+
 			case 12:
 				{
 				State = 1176;
 				delegate_creation_expression();
 				}
 				break;
+
 			case 13:
 				{
 				State = 1177;
 				anonymous_object_creation_expression();
 				}
 				break;
+
 			case 14:
 				{
 				State = 1178;
 				typeof_expression();
 				}
 				break;
+
 			case 15:
 				{
 				State = 1179;
 				sizeof_expression();
 				}
 				break;
+
 			case 16:
 				{
 				State = 1180;
 				checked_expression();
 				}
 				break;
+
 			case 17:
 				{
 				State = 1181;
 				unchecked_expression();
 				}
 				break;
+
 			case 18:
 				{
 				State = 1182;
 				default_value_expression();
 				}
 				break;
+
 			case 19:
 				{
 				State = 1183;
 				nameof_expression();
 				}
 				break;
+
 			case 20:
 				{
 				State = 1184;
 				anonymous_method_expression();
 				}
 				break;
+
 			case 21:
 				{
 				State = 1185;
 				makeref_expression();
 				}
 				break;
+
 			case 22:
 				{
 				State = 1186;
 				reftype_expression();
 				}
 				break;
+
 			case 23:
 				{
 				State = 1187;
 				refvalue_expression();
 				}
 				break;
+
 			case 24:
 				{
 				State = 1188;
@@ -5541,6 +5594,7 @@ public partial class CSharpParser : CSharpParserBase {
 						 this.AsMemberAccess(_localctx); 
 						}
 						break;
+
 					case 2:
 						{
 						_localctx = new Primary_expressionContext(_parentctx, _parentState);
@@ -5592,6 +5646,7 @@ public partial class CSharpParser : CSharpParserBase {
 						 this.AsNullConditionalMemberAccess(_localctx); 
 						}
 						break;
+
 					case 3:
 						{
 						_localctx = new Primary_expressionContext(_parentctx, _parentState);
@@ -5615,6 +5670,7 @@ public partial class CSharpParser : CSharpParserBase {
 						 this.AsInvocationExpression(_localctx); 
 						}
 						break;
+
 					case 4:
 						{
 						_localctx = new Primary_expressionContext(_parentctx, _parentState);
@@ -5631,6 +5687,7 @@ public partial class CSharpParser : CSharpParserBase {
 						 this.ElementAccessSemanticCheck(_localctx); 
 						}
 						break;
+
 					case 5:
 						{
 						_localctx = new Primary_expressionContext(_parentctx, _parentState);
@@ -5675,6 +5732,7 @@ public partial class CSharpParser : CSharpParserBase {
 						 this.ElementAccessSemanticCheck(_localctx); 
 						}
 						break;
+
 					case 6:
 						{
 						_localctx = new Primary_expressionContext(_parentctx, _parentState);
@@ -5686,6 +5744,7 @@ public partial class CSharpParser : CSharpParserBase {
 						 this.AsPostIncrementExpression(_localctx); 
 						}
 						break;
+
 					case 7:
 						{
 						_localctx = new Primary_expressionContext(_parentctx, _parentState);
@@ -5697,6 +5756,7 @@ public partial class CSharpParser : CSharpParserBase {
 						 this.AsPostDecrementExpression(_localctx); 
 						}
 						break;
+
 					case 8:
 						{
 						_localctx = new Primary_expressionContext(_parentctx, _parentState);
@@ -5708,6 +5768,7 @@ public partial class CSharpParser : CSharpParserBase {
 						 this.AsNullForgivingExpression(_localctx); 
 						}
 						break;
+
 					case 9:
 						{
 						_localctx = new Primary_expressionContext(_parentctx, _parentState);
@@ -6730,6 +6791,7 @@ public partial class CSharpParser : CSharpParserBase {
 
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -6751,6 +6813,7 @@ public partial class CSharpParser : CSharpParserBase {
 
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -7240,6 +7303,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RPAREN);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -7482,6 +7546,7 @@ public partial class CSharpParser : CSharpParserBase {
 				}
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -7671,6 +7736,7 @@ public partial class CSharpParser : CSharpParserBase {
 				}
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -7734,6 +7800,7 @@ public partial class CSharpParser : CSharpParserBase {
 				object_initializer();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -7806,6 +7873,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RBRACE);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -8090,6 +8158,7 @@ public partial class CSharpParser : CSharpParserBase {
 				expression();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -8153,6 +8222,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RBRACE);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -8289,6 +8359,7 @@ public partial class CSharpParser : CSharpParserBase {
 				non_assignment_expression();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -8478,6 +8549,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RBRACE);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -8625,6 +8697,7 @@ public partial class CSharpParser : CSharpParserBase {
 				simple_name();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -8632,6 +8705,7 @@ public partial class CSharpParser : CSharpParserBase {
 				member_access();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -8639,6 +8713,7 @@ public partial class CSharpParser : CSharpParserBase {
 				null_conditional_projection_initializer();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -8646,6 +8721,7 @@ public partial class CSharpParser : CSharpParserBase {
 				base_access();
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -8759,6 +8835,7 @@ public partial class CSharpParser : CSharpParserBase {
 				}
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -8770,6 +8847,7 @@ public partial class CSharpParser : CSharpParserBase {
 				array_initializer();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -8900,6 +8978,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RPAREN);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -8913,6 +8992,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RPAREN);
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -9028,6 +9108,7 @@ public partial class CSharpParser : CSharpParserBase {
 				}
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -9604,6 +9685,7 @@ public partial class CSharpParser : CSharpParserBase {
 				explicitly_typed_default();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -9774,6 +9856,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RBRACK);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -10182,6 +10265,7 @@ public partial class CSharpParser : CSharpParserBase {
 				simple_name();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -10189,6 +10273,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_THIS);
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -10196,6 +10281,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_BASE);
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -10203,6 +10289,7 @@ public partial class CSharpParser : CSharpParserBase {
 				predefined_type();
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -10287,6 +10374,7 @@ public partial class CSharpParser : CSharpParserBase {
 				primary_expression(0);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -10296,6 +10384,7 @@ public partial class CSharpParser : CSharpParserBase {
 				unary_expression();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -10305,6 +10394,7 @@ public partial class CSharpParser : CSharpParserBase {
 				unary_expression();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -10314,6 +10404,7 @@ public partial class CSharpParser : CSharpParserBase {
 				unary_expression();
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -10323,6 +10414,7 @@ public partial class CSharpParser : CSharpParserBase {
 				unary_expression();
 				}
 				break;
+
 			case 6:
 				EnterOuterAlt(_localctx, 6);
 				{
@@ -10332,6 +10424,7 @@ public partial class CSharpParser : CSharpParserBase {
 				unary_expression();
 				}
 				break;
+
 			case 7:
 				EnterOuterAlt(_localctx, 7);
 				{
@@ -10339,6 +10432,7 @@ public partial class CSharpParser : CSharpParserBase {
 				pre_increment_expression();
 				}
 				break;
+
 			case 8:
 				EnterOuterAlt(_localctx, 8);
 				{
@@ -10346,6 +10440,7 @@ public partial class CSharpParser : CSharpParserBase {
 				pre_decrement_expression();
 				}
 				break;
+
 			case 9:
 				EnterOuterAlt(_localctx, 9);
 				{
@@ -10353,6 +10448,7 @@ public partial class CSharpParser : CSharpParserBase {
 				cast_expression();
 				}
 				break;
+
 			case 10:
 				EnterOuterAlt(_localctx, 10);
 				{
@@ -10360,6 +10456,7 @@ public partial class CSharpParser : CSharpParserBase {
 				await_expression();
 				}
 				break;
+
 			case 11:
 				EnterOuterAlt(_localctx, 11);
 				{
@@ -10367,6 +10464,7 @@ public partial class CSharpParser : CSharpParserBase {
 				pointer_indirection_expression();
 				}
 				break;
+
 			case 12:
 				EnterOuterAlt(_localctx, 12);
 				{
@@ -10641,6 +10739,7 @@ public partial class CSharpParser : CSharpParserBase {
 				}
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -11032,6 +11131,7 @@ public partial class CSharpParser : CSharpParserBase {
 						switch_expression(0);
 						}
 						break;
+
 					case 2:
 						{
 						_localctx = new Multiplicative_expressionContext(_parentctx, _parentState);
@@ -11044,6 +11144,7 @@ public partial class CSharpParser : CSharpParserBase {
 						switch_expression(0);
 						}
 						break;
+
 					case 3:
 						{
 						_localctx = new Multiplicative_expressionContext(_parentctx, _parentState);
@@ -11147,6 +11248,7 @@ public partial class CSharpParser : CSharpParserBase {
 						multiplicative_expression(0);
 						}
 						break;
+
 					case 2:
 						{
 						_localctx = new Additive_expressionContext(_parentctx, _parentState);
@@ -11252,6 +11354,7 @@ public partial class CSharpParser : CSharpParserBase {
 						additive_expression(0);
 						}
 						break;
+
 					case 2:
 						{
 						_localctx = new Shift_expressionContext(_parentctx, _parentState);
@@ -11365,6 +11468,7 @@ public partial class CSharpParser : CSharpParserBase {
 						shift_expression(0);
 						}
 						break;
+
 					case 2:
 						{
 						_localctx = new Relational_expressionContext(_parentctx, _parentState);
@@ -11377,6 +11481,7 @@ public partial class CSharpParser : CSharpParserBase {
 						shift_expression(0);
 						}
 						break;
+
 					case 3:
 						{
 						_localctx = new Relational_expressionContext(_parentctx, _parentState);
@@ -11389,6 +11494,7 @@ public partial class CSharpParser : CSharpParserBase {
 						shift_expression(0);
 						}
 						break;
+
 					case 4:
 						{
 						_localctx = new Relational_expressionContext(_parentctx, _parentState);
@@ -11401,6 +11507,7 @@ public partial class CSharpParser : CSharpParserBase {
 						shift_expression(0);
 						}
 						break;
+
 					case 5:
 						{
 						_localctx = new Relational_expressionContext(_parentctx, _parentState);
@@ -11413,6 +11520,7 @@ public partial class CSharpParser : CSharpParserBase {
 						type_();
 						}
 						break;
+
 					case 6:
 						{
 						_localctx = new Relational_expressionContext(_parentctx, _parentState);
@@ -11425,6 +11533,7 @@ public partial class CSharpParser : CSharpParserBase {
 						pattern();
 						}
 						break;
+
 					case 7:
 						{
 						_localctx = new Relational_expressionContext(_parentctx, _parentState);
@@ -11528,6 +11637,7 @@ public partial class CSharpParser : CSharpParserBase {
 						relational_expression(0);
 						}
 						break;
+
 					case 2:
 						{
 						_localctx = new Equality_expressionContext(_parentctx, _parentState);
@@ -12035,6 +12145,7 @@ public partial class CSharpParser : CSharpParserBase {
 				}
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -12217,6 +12328,7 @@ public partial class CSharpParser : CSharpParserBase {
 					expression();
 					}
 					break;
+
 				case 2:
 					{
 					State = 2054;
@@ -12420,6 +12532,7 @@ public partial class CSharpParser : CSharpParserBase {
 				explicit_anonymous_function_signature();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -12940,6 +13053,7 @@ public partial class CSharpParser : CSharpParserBase {
 				null_conditional_invocation_expression();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -12947,6 +13061,7 @@ public partial class CSharpParser : CSharpParserBase {
 				expression();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -12956,6 +13071,7 @@ public partial class CSharpParser : CSharpParserBase {
 				variable_reference();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -13219,6 +13335,7 @@ public partial class CSharpParser : CSharpParserBase {
 				from_clause();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -13226,6 +13343,7 @@ public partial class CSharpParser : CSharpParserBase {
 				let_clause();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -13233,6 +13351,7 @@ public partial class CSharpParser : CSharpParserBase {
 				where_clause();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -13240,6 +13359,7 @@ public partial class CSharpParser : CSharpParserBase {
 				join_clause();
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -13247,6 +13367,7 @@ public partial class CSharpParser : CSharpParserBase {
 				join_into_clause();
 				}
 				break;
+
 			case 6:
 				EnterOuterAlt(_localctx, 6);
 				{
@@ -14276,6 +14397,7 @@ public partial class CSharpParser : CSharpParserBase {
 				declaration_expression();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -14283,6 +14405,7 @@ public partial class CSharpParser : CSharpParserBase {
 				conditional_expression();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -14290,6 +14413,7 @@ public partial class CSharpParser : CSharpParserBase {
 				lambda_expression();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -14438,6 +14562,7 @@ public partial class CSharpParser : CSharpParserBase {
 				labeled_statement();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -14445,6 +14570,7 @@ public partial class CSharpParser : CSharpParserBase {
 				declaration_statement();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -14540,6 +14666,7 @@ public partial class CSharpParser : CSharpParserBase {
 				block();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -14547,6 +14674,7 @@ public partial class CSharpParser : CSharpParserBase {
 				empty_statement();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -14554,6 +14682,7 @@ public partial class CSharpParser : CSharpParserBase {
 				expression_statement();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -14561,6 +14690,7 @@ public partial class CSharpParser : CSharpParserBase {
 				selection_statement();
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -14568,6 +14698,7 @@ public partial class CSharpParser : CSharpParserBase {
 				iteration_statement();
 				}
 				break;
+
 			case 6:
 				EnterOuterAlt(_localctx, 6);
 				{
@@ -14575,6 +14706,7 @@ public partial class CSharpParser : CSharpParserBase {
 				jump_statement();
 				}
 				break;
+
 			case 7:
 				EnterOuterAlt(_localctx, 7);
 				{
@@ -14582,6 +14714,7 @@ public partial class CSharpParser : CSharpParserBase {
 				try_statement();
 				}
 				break;
+
 			case 8:
 				EnterOuterAlt(_localctx, 8);
 				{
@@ -14589,6 +14722,7 @@ public partial class CSharpParser : CSharpParserBase {
 				checked_statement();
 				}
 				break;
+
 			case 9:
 				EnterOuterAlt(_localctx, 9);
 				{
@@ -14596,6 +14730,7 @@ public partial class CSharpParser : CSharpParserBase {
 				unchecked_statement();
 				}
 				break;
+
 			case 10:
 				EnterOuterAlt(_localctx, 10);
 				{
@@ -14603,6 +14738,7 @@ public partial class CSharpParser : CSharpParserBase {
 				lock_statement();
 				}
 				break;
+
 			case 11:
 				EnterOuterAlt(_localctx, 11);
 				{
@@ -14610,6 +14746,7 @@ public partial class CSharpParser : CSharpParserBase {
 				using_statement();
 				}
 				break;
+
 			case 12:
 				EnterOuterAlt(_localctx, 12);
 				{
@@ -14617,6 +14754,7 @@ public partial class CSharpParser : CSharpParserBase {
 				yield_statement();
 				}
 				break;
+
 			case 13:
 				EnterOuterAlt(_localctx, 13);
 				{
@@ -14624,6 +14762,7 @@ public partial class CSharpParser : CSharpParserBase {
 				unsafe_statement();
 				}
 				break;
+
 			case 14:
 				EnterOuterAlt(_localctx, 14);
 				{
@@ -14908,6 +15047,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_SEMI);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -14917,6 +15057,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_SEMI);
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -14924,6 +15065,7 @@ public partial class CSharpParser : CSharpParserBase {
 				local_function_declaration();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -15069,6 +15211,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_VAR);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -15199,6 +15342,7 @@ public partial class CSharpParser : CSharpParserBase {
 				expression();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -15473,6 +15617,7 @@ public partial class CSharpParser : CSharpParserBase {
 				local_function_body();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -15578,6 +15723,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RPAREN);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -15791,6 +15937,7 @@ public partial class CSharpParser : CSharpParserBase {
 				block();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -15802,6 +15949,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_SEMI);
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -16002,6 +16150,7 @@ public partial class CSharpParser : CSharpParserBase {
 				null_conditional_invocation_expression();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -16009,6 +16158,7 @@ public partial class CSharpParser : CSharpParserBase {
 				primary_expression(0);
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -16016,6 +16166,7 @@ public partial class CSharpParser : CSharpParserBase {
 				object_creation_expression();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -16023,6 +16174,7 @@ public partial class CSharpParser : CSharpParserBase {
 				assignment();
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -16030,6 +16182,7 @@ public partial class CSharpParser : CSharpParserBase {
 				post_increment_expression();
 				}
 				break;
+
 			case 6:
 				EnterOuterAlt(_localctx, 6);
 				{
@@ -16037,6 +16190,7 @@ public partial class CSharpParser : CSharpParserBase {
 				post_decrement_expression();
 				}
 				break;
+
 			case 7:
 				EnterOuterAlt(_localctx, 7);
 				{
@@ -16044,6 +16198,7 @@ public partial class CSharpParser : CSharpParserBase {
 				pre_increment_expression();
 				}
 				break;
+
 			case 8:
 				EnterOuterAlt(_localctx, 8);
 				{
@@ -16051,6 +16206,7 @@ public partial class CSharpParser : CSharpParserBase {
 				pre_decrement_expression();
 				}
 				break;
+
 			case 9:
 				EnterOuterAlt(_localctx, 9);
 				{
@@ -16186,6 +16342,7 @@ public partial class CSharpParser : CSharpParserBase {
 				embedded_statement();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -16314,6 +16471,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RPAREN);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -16936,6 +17094,7 @@ public partial class CSharpParser : CSharpParserBase {
 				local_variable_declaration();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -17200,6 +17359,7 @@ public partial class CSharpParser : CSharpParserBase {
 				embedded_statement();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -17468,6 +17628,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_SEMI);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -17481,6 +17642,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_SEMI);
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -17549,6 +17711,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_SEMI);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -17560,6 +17723,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_SEMI);
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -17691,6 +17855,7 @@ public partial class CSharpParser : CSharpParserBase {
 				catch_clauses();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -17786,6 +17951,7 @@ public partial class CSharpParser : CSharpParserBase {
 				} while ( _alt!=2 && _alt!=global::Antlr4.Runtime.Atn.ATN.INVALID_ALT_NUMBER );
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -17880,6 +18046,7 @@ public partial class CSharpParser : CSharpParserBase {
 				block();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -18368,6 +18535,7 @@ public partial class CSharpParser : CSharpParserBase {
 				non_ref_local_variable_declaration();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -18583,6 +18751,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_SEMI);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -19050,6 +19219,7 @@ public partial class CSharpParser : CSharpParserBase {
 				using_alias_directive();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -19057,6 +19227,7 @@ public partial class CSharpParser : CSharpParserBase {
 				using_namespace_directive();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -19363,6 +19534,7 @@ public partial class CSharpParser : CSharpParserBase {
 				class_declaration();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -19370,6 +19542,7 @@ public partial class CSharpParser : CSharpParserBase {
 				struct_declaration();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -19377,6 +19550,7 @@ public partial class CSharpParser : CSharpParserBase {
 				interface_declaration();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -19384,6 +19558,7 @@ public partial class CSharpParser : CSharpParserBase {
 				enum_declaration();
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -19911,6 +20086,7 @@ public partial class CSharpParser : CSharpParserBase {
 				interface_type_list();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -19922,6 +20098,7 @@ public partial class CSharpParser : CSharpParserBase {
 				class_type();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -20140,6 +20317,7 @@ public partial class CSharpParser : CSharpParserBase {
 
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -20159,6 +20337,7 @@ public partial class CSharpParser : CSharpParserBase {
 
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -20233,6 +20412,7 @@ public partial class CSharpParser : CSharpParserBase {
 
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -20250,6 +20430,7 @@ public partial class CSharpParser : CSharpParserBase {
 
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -20257,6 +20438,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_STRUCT);
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -20264,6 +20446,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_NOTNULL);
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -20337,6 +20520,7 @@ public partial class CSharpParser : CSharpParserBase {
 
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -20618,6 +20802,7 @@ public partial class CSharpParser : CSharpParserBase {
 				constant_declaration();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -20625,6 +20810,7 @@ public partial class CSharpParser : CSharpParserBase {
 				field_declaration();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -20632,6 +20818,7 @@ public partial class CSharpParser : CSharpParserBase {
 				method_declaration();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -20639,6 +20826,7 @@ public partial class CSharpParser : CSharpParserBase {
 				property_declaration();
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -20646,6 +20834,7 @@ public partial class CSharpParser : CSharpParserBase {
 				event_declaration();
 				}
 				break;
+
 			case 6:
 				EnterOuterAlt(_localctx, 6);
 				{
@@ -20653,6 +20842,7 @@ public partial class CSharpParser : CSharpParserBase {
 				indexer_declaration();
 				}
 				break;
+
 			case 7:
 				EnterOuterAlt(_localctx, 7);
 				{
@@ -20660,6 +20850,7 @@ public partial class CSharpParser : CSharpParserBase {
 				operator_declaration();
 				}
 				break;
+
 			case 8:
 				EnterOuterAlt(_localctx, 8);
 				{
@@ -20667,6 +20858,7 @@ public partial class CSharpParser : CSharpParserBase {
 				constructor_declaration();
 				}
 				break;
+
 			case 9:
 				EnterOuterAlt(_localctx, 9);
 				{
@@ -20674,6 +20866,7 @@ public partial class CSharpParser : CSharpParserBase {
 				finalizer_declaration();
 				}
 				break;
+
 			case 10:
 				EnterOuterAlt(_localctx, 10);
 				{
@@ -20681,6 +20874,7 @@ public partial class CSharpParser : CSharpParserBase {
 				static_constructor_declaration();
 				}
 				break;
+
 			case 11:
 				EnterOuterAlt(_localctx, 11);
 				{
@@ -21250,6 +21444,7 @@ public partial class CSharpParser : CSharpParserBase {
 				method_body();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -21395,6 +21590,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_REF);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -21541,6 +21737,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RPAREN);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -21846,6 +22043,7 @@ public partial class CSharpParser : CSharpParserBase {
 				ref_return_type();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -21949,6 +22147,7 @@ public partial class CSharpParser : CSharpParserBase {
 				identifier();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -22017,6 +22216,7 @@ public partial class CSharpParser : CSharpParserBase {
 				block();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -22028,6 +22228,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_SEMI);
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -22039,6 +22240,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_SEMI);
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -22176,6 +22378,7 @@ public partial class CSharpParser : CSharpParserBase {
 				fixed_parameters();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -22187,6 +22390,7 @@ public partial class CSharpParser : CSharpParserBase {
 				parameter_array();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -22358,6 +22562,7 @@ public partial class CSharpParser : CSharpParserBase {
 
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -22462,6 +22667,7 @@ public partial class CSharpParser : CSharpParserBase {
 				parameter_mode_modifier();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -22479,6 +22685,7 @@ public partial class CSharpParser : CSharpParserBase {
 				}
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -22714,6 +22921,7 @@ public partial class CSharpParser : CSharpParserBase {
 				property_body();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -23172,6 +23380,7 @@ public partial class CSharpParser : CSharpParserBase {
 
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -23385,6 +23594,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_PROTECTED);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -23392,6 +23602,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_INTERNAL);
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -23399,6 +23610,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_PRIVATE);
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -23408,6 +23620,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_INTERNAL);
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -23417,6 +23630,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_PROTECTED);
 				}
 				break;
+
 			case 6:
 				EnterOuterAlt(_localctx, 6);
 				{
@@ -23426,6 +23640,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_PRIVATE);
 				}
 				break;
+
 			case 7:
 				EnterOuterAlt(_localctx, 7);
 				{
@@ -23435,6 +23650,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_PROTECTED);
 				}
 				break;
+
 			case 8:
 				EnterOuterAlt(_localctx, 8);
 				{
@@ -23768,6 +23984,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_SEMI);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -24010,6 +24227,7 @@ public partial class CSharpParser : CSharpParserBase {
 				remove_accessor_declaration();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -24236,6 +24454,7 @@ public partial class CSharpParser : CSharpParserBase {
 				indexer_body();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -24477,6 +24696,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RBRACK);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -24864,6 +25084,7 @@ public partial class CSharpParser : CSharpParserBase {
 				unary_operator_declarator();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -24871,6 +25092,7 @@ public partial class CSharpParser : CSharpParserBase {
 				binary_operator_declarator();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -25222,6 +25444,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_PLUS);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -25229,6 +25452,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_MINUS);
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -25236,6 +25460,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(ASTERISK);
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -25243,6 +25468,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(SLASH);
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -25250,6 +25476,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_PCT);
 				}
 				break;
+
 			case 6:
 				EnterOuterAlt(_localctx, 6);
 				{
@@ -25257,6 +25484,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_AND);
 				}
 				break;
+
 			case 7:
 				EnterOuterAlt(_localctx, 7);
 				{
@@ -25264,6 +25492,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_OR);
 				}
 				break;
+
 			case 8:
 				EnterOuterAlt(_localctx, 8);
 				{
@@ -25271,6 +25500,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_XOR);
 				}
 				break;
+
 			case 9:
 				EnterOuterAlt(_localctx, 9);
 				{
@@ -25278,6 +25508,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_LT_LT);
 				}
 				break;
+
 			case 10:
 				EnterOuterAlt(_localctx, 10);
 				{
@@ -25285,6 +25516,7 @@ public partial class CSharpParser : CSharpParserBase {
 				right_shift();
 				}
 				break;
+
 			case 11:
 				EnterOuterAlt(_localctx, 11);
 				{
@@ -25292,6 +25524,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_EQ_EQ);
 				}
 				break;
+
 			case 12:
 				EnterOuterAlt(_localctx, 12);
 				{
@@ -25299,6 +25532,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_NOT_EQ);
 				}
 				break;
+
 			case 13:
 				EnterOuterAlt(_localctx, 13);
 				{
@@ -25306,6 +25540,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_GT);
 				}
 				break;
+
 			case 14:
 				EnterOuterAlt(_localctx, 14);
 				{
@@ -25313,6 +25548,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_LT);
 				}
 				break;
+
 			case 15:
 				EnterOuterAlt(_localctx, 15);
 				{
@@ -25320,6 +25556,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_GT_EQ);
 				}
 				break;
+
 			case 16:
 				EnterOuterAlt(_localctx, 16);
 				{
@@ -25806,6 +26043,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RPAREN);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -26028,6 +26266,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_STATIC);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -26047,6 +26286,7 @@ public partial class CSharpParser : CSharpParserBase {
 
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -26066,6 +26306,7 @@ public partial class CSharpParser : CSharpParserBase {
 
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -26085,6 +26326,7 @@ public partial class CSharpParser : CSharpParserBase {
 
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -26096,6 +26338,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(KW_STATIC);
 				}
 				break;
+
 			case 6:
 				EnterOuterAlt(_localctx, 6);
 				{
@@ -26115,6 +26358,7 @@ public partial class CSharpParser : CSharpParserBase {
 
 				}
 				break;
+
 			case 7:
 				EnterOuterAlt(_localctx, 7);
 				{
@@ -26281,6 +26525,7 @@ public partial class CSharpParser : CSharpParserBase {
 				finalizer_body();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -26318,6 +26563,7 @@ public partial class CSharpParser : CSharpParserBase {
 				finalizer_body();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -26886,6 +27132,7 @@ public partial class CSharpParser : CSharpParserBase {
 				constant_declaration();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -26893,6 +27140,7 @@ public partial class CSharpParser : CSharpParserBase {
 				field_declaration();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -26900,6 +27148,7 @@ public partial class CSharpParser : CSharpParserBase {
 				method_declaration();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -26907,6 +27156,7 @@ public partial class CSharpParser : CSharpParserBase {
 				property_declaration();
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -26914,6 +27164,7 @@ public partial class CSharpParser : CSharpParserBase {
 				event_declaration();
 				}
 				break;
+
 			case 6:
 				EnterOuterAlt(_localctx, 6);
 				{
@@ -26921,6 +27172,7 @@ public partial class CSharpParser : CSharpParserBase {
 				indexer_declaration();
 				}
 				break;
+
 			case 7:
 				EnterOuterAlt(_localctx, 7);
 				{
@@ -26928,6 +27180,7 @@ public partial class CSharpParser : CSharpParserBase {
 				operator_declaration();
 				}
 				break;
+
 			case 8:
 				EnterOuterAlt(_localctx, 8);
 				{
@@ -26935,6 +27188,7 @@ public partial class CSharpParser : CSharpParserBase {
 				constructor_declaration();
 				}
 				break;
+
 			case 9:
 				EnterOuterAlt(_localctx, 9);
 				{
@@ -26942,6 +27196,7 @@ public partial class CSharpParser : CSharpParserBase {
 				static_constructor_declaration();
 				}
 				break;
+
 			case 10:
 				EnterOuterAlt(_localctx, 10);
 				{
@@ -26949,6 +27204,7 @@ public partial class CSharpParser : CSharpParserBase {
 				type_declaration();
 				}
 				break;
+
 			case 11:
 				EnterOuterAlt(_localctx, 11);
 				{
@@ -27020,6 +27276,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RBRACE);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -27154,6 +27411,7 @@ public partial class CSharpParser : CSharpParserBase {
 				expression();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -27786,6 +28044,7 @@ public partial class CSharpParser : CSharpParserBase {
 				constant_declaration();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -27793,6 +28052,7 @@ public partial class CSharpParser : CSharpParserBase {
 				field_declaration();
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -27800,6 +28060,7 @@ public partial class CSharpParser : CSharpParserBase {
 				method_declaration();
 				}
 				break;
+
 			case 4:
 				EnterOuterAlt(_localctx, 4);
 				{
@@ -27807,6 +28068,7 @@ public partial class CSharpParser : CSharpParserBase {
 				property_declaration();
 				}
 				break;
+
 			case 5:
 				EnterOuterAlt(_localctx, 5);
 				{
@@ -27814,6 +28076,7 @@ public partial class CSharpParser : CSharpParserBase {
 				event_declaration();
 				}
 				break;
+
 			case 6:
 				EnterOuterAlt(_localctx, 6);
 				{
@@ -27821,6 +28084,7 @@ public partial class CSharpParser : CSharpParserBase {
 				indexer_declaration();
 				}
 				break;
+
 			case 7:
 				EnterOuterAlt(_localctx, 7);
 				{
@@ -27828,6 +28092,7 @@ public partial class CSharpParser : CSharpParserBase {
 				static_constructor_declaration();
 				}
 				break;
+
 			case 8:
 				EnterOuterAlt(_localctx, 8);
 				{
@@ -27835,6 +28100,7 @@ public partial class CSharpParser : CSharpParserBase {
 				operator_declaration();
 				}
 				break;
+
 			case 9:
 				EnterOuterAlt(_localctx, 9);
 				{
@@ -28006,6 +28272,7 @@ public partial class CSharpParser : CSharpParserBase {
 				integral_type();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -28123,6 +28390,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RBRACE);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -28428,6 +28696,7 @@ public partial class CSharpParser : CSharpParserBase {
 				delegate_header();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -28546,6 +28815,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_SEMI);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -29464,6 +29734,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RPAREN);
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -29487,6 +29758,7 @@ public partial class CSharpParser : CSharpParserBase {
 				Match(TK_RPAREN);
 				}
 				break;
+
 			case 3:
 				EnterOuterAlt(_localctx, 3);
 				{
@@ -30348,6 +30620,7 @@ public partial class CSharpParser : CSharpParserBase {
 				variable_reference();
 				}
 				break;
+
 			case 2:
 				EnterOuterAlt(_localctx, 2);
 				{
@@ -30676,23 +30949,41 @@ public partial class CSharpParser : CSharpParserBase {
 	public override bool Sempred(RuleContext _localctx, int ruleIndex, int predIndex) {
 		switch (ruleIndex) {
 		case 19: return type__sempred((Type_Context)_localctx, predIndex);
+
 		case 21: return non_nullable_reference_type_sempred((Non_nullable_reference_typeContext)_localctx, predIndex);
+
 		case 46: return pattern_sempred((PatternContext)_localctx, predIndex);
+
 		case 66: return primary_expression_sempred((Primary_expressionContext)_localctx, predIndex);
+
 		case 133: return cast_expression_sempred((Cast_expressionContext)_localctx, predIndex);
+
 		case 136: return switch_expression_sempred((Switch_expressionContext)_localctx, predIndex);
+
 		case 140: return multiplicative_expression_sempred((Multiplicative_expressionContext)_localctx, predIndex);
+
 		case 141: return additive_expression_sempred((Additive_expressionContext)_localctx, predIndex);
+
 		case 142: return shift_expression_sempred((Shift_expressionContext)_localctx, predIndex);
+
 		case 143: return relational_expression_sempred((Relational_expressionContext)_localctx, predIndex);
+
 		case 144: return equality_expression_sempred((Equality_expressionContext)_localctx, predIndex);
+
 		case 145: return and_expression_sempred((And_expressionContext)_localctx, predIndex);
+
 		case 146: return exclusive_or_expression_sempred((Exclusive_or_expressionContext)_localctx, predIndex);
+
 		case 147: return inclusive_or_expression_sempred((Inclusive_or_expressionContext)_localctx, predIndex);
+
 		case 148: return conditional_and_expression_sempred((Conditional_and_expressionContext)_localctx, predIndex);
+
 		case 149: return conditional_or_expression_sempred((Conditional_or_expressionContext)_localctx, predIndex);
+
 		case 194: return local_variable_declaration_sempred((Local_variable_declarationContext)_localctx, predIndex);
+
 		case 244: return non_ref_local_variable_declaration_sempred((Non_ref_local_variable_declarationContext)_localctx, predIndex);
+
 		case 263: return class_base_sempred((Class_baseContext)_localctx, predIndex);
 		}
 		return true;
@@ -30700,7 +30991,9 @@ public partial class CSharpParser : CSharpParserBase {
 	private bool type__sempred(Type_Context _localctx, int predIndex) {
 		switch (predIndex) {
 		case 0: return this.IsTypeParameterName();
+
 		case 1: return this.IsValueTypeName();
+
 		case 2: return this.IsReferenceTypeName();
 		}
 		return true;
@@ -30708,7 +31001,9 @@ public partial class CSharpParser : CSharpParserBase {
 	private bool non_nullable_reference_type_sempred(Non_nullable_reference_typeContext _localctx, int predIndex) {
 		switch (predIndex) {
 		case 3: return this.IsDelegateTypeName();
+
 		case 4: return this.IsInterfaceTypeName();
+
 		case 5: return this.IsClassTypeName();
 		}
 		return true;
@@ -30716,7 +31011,9 @@ public partial class CSharpParser : CSharpParserBase {
 	private bool pattern_sempred(PatternContext _localctx, int predIndex) {
 		switch (predIndex) {
 		case 6: return this.IsDeclarationPatternAhead();
+
 		case 7: return this.IsConstantPatternAhead();
+
 		case 8: return this.IsPositionalPatternAhead();
 		}
 		return true;
@@ -30724,13 +31021,21 @@ public partial class CSharpParser : CSharpParserBase {
 	private bool primary_expression_sempred(Primary_expressionContext _localctx, int predIndex) {
 		switch (predIndex) {
 		case 9: return Precpred(Context, 28);
+
 		case 10: return Precpred(Context, 25);
+
 		case 11: return Precpred(Context, 24);
+
 		case 12: return Precpred(Context, 23);
+
 		case 13: return Precpred(Context, 22);
+
 		case 14: return Precpred(Context, 19);
+
 		case 15: return Precpred(Context, 18);
+
 		case 16: return Precpred(Context, 17);
+
 		case 17: return Precpred(Context, 2);
 		}
 		return true;
@@ -30750,7 +31055,9 @@ public partial class CSharpParser : CSharpParserBase {
 	private bool multiplicative_expression_sempred(Multiplicative_expressionContext _localctx, int predIndex) {
 		switch (predIndex) {
 		case 20: return Precpred(Context, 3);
+
 		case 21: return Precpred(Context, 2);
+
 		case 22: return Precpred(Context, 1);
 		}
 		return true;
@@ -30758,6 +31065,7 @@ public partial class CSharpParser : CSharpParserBase {
 	private bool additive_expression_sempred(Additive_expressionContext _localctx, int predIndex) {
 		switch (predIndex) {
 		case 23: return Precpred(Context, 2);
+
 		case 24: return Precpred(Context, 1);
 		}
 		return true;
@@ -30765,6 +31073,7 @@ public partial class CSharpParser : CSharpParserBase {
 	private bool shift_expression_sempred(Shift_expressionContext _localctx, int predIndex) {
 		switch (predIndex) {
 		case 25: return Precpred(Context, 2);
+
 		case 26: return Precpred(Context, 1);
 		}
 		return true;
@@ -30772,11 +31081,17 @@ public partial class CSharpParser : CSharpParserBase {
 	private bool relational_expression_sempred(Relational_expressionContext _localctx, int predIndex) {
 		switch (predIndex) {
 		case 27: return Precpred(Context, 7);
+
 		case 28: return Precpred(Context, 6);
+
 		case 29: return Precpred(Context, 5);
+
 		case 30: return Precpred(Context, 4);
+
 		case 31: return Precpred(Context, 3);
+
 		case 32: return Precpred(Context, 2);
+
 		case 33: return Precpred(Context, 1);
 		}
 		return true;
@@ -30784,6 +31099,7 @@ public partial class CSharpParser : CSharpParserBase {
 	private bool equality_expression_sempred(Equality_expressionContext _localctx, int predIndex) {
 		switch (predIndex) {
 		case 34: return Precpred(Context, 2);
+
 		case 35: return Precpred(Context, 1);
 		}
 		return true;
@@ -30833,6 +31149,7 @@ public partial class CSharpParser : CSharpParserBase {
 	private bool class_base_sempred(Class_baseContext _localctx, int predIndex) {
 		switch (predIndex) {
 		case 43: return this.IsClassBaseInterfaceList();
+
 		case 44: return this.IsClassBaseClassType();
 		}
 		return true;

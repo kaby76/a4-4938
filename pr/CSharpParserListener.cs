@@ -40,6 +40,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitProg([NotNull] CSharpParser.ProgContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.input"/>.
 	/// </summary>
@@ -50,6 +51,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInput([NotNull] CSharpParser.InputContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.input_section"/>.
 	/// </summary>
@@ -60,6 +62,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInput_section([NotNull] CSharpParser.Input_sectionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.input_section_part"/>.
 	/// </summary>
@@ -70,6 +73,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInput_section_part([NotNull] CSharpParser.Input_section_partContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.input_element"/>.
 	/// </summary>
@@ -80,6 +84,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInput_element([NotNull] CSharpParser.Input_elementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.token"/>.
 	/// </summary>
@@ -90,6 +95,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitToken([NotNull] CSharpParser.TokenContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.identifier"/>.
 	/// </summary>
@@ -100,6 +106,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitIdentifier([NotNull] CSharpParser.IdentifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.discard_token"/>.
 	/// </summary>
@@ -110,6 +117,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDiscard_token([NotNull] CSharpParser.Discard_tokenContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.keyword"/>.
 	/// </summary>
@@ -120,6 +128,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitKeyword([NotNull] CSharpParser.KeywordContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.contextual_keyword"/>.
 	/// </summary>
@@ -130,6 +139,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitContextual_keyword([NotNull] CSharpParser.Contextual_keywordContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.literal"/>.
 	/// </summary>
@@ -140,6 +150,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitLiteral([NotNull] CSharpParser.LiteralContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.boolean_literal"/>.
 	/// </summary>
@@ -150,6 +161,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitBoolean_literal([NotNull] CSharpParser.Boolean_literalContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.null_literal"/>.
 	/// </summary>
@@ -160,6 +172,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNull_literal([NotNull] CSharpParser.Null_literalContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.operator_or_punctuator"/>.
 	/// </summary>
@@ -170,6 +183,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitOperator_or_punctuator([NotNull] CSharpParser.Operator_or_punctuatorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.right_shift"/>.
 	/// </summary>
@@ -180,6 +194,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRight_shift([NotNull] CSharpParser.Right_shiftContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.right_shift_assignment"/>.
 	/// </summary>
@@ -190,6 +205,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRight_shift_assignment([NotNull] CSharpParser.Right_shift_assignmentContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.namespace_name"/>.
 	/// </summary>
@@ -200,6 +216,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNamespace_name([NotNull] CSharpParser.Namespace_nameContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.type_name"/>.
 	/// </summary>
@@ -210,6 +227,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitType_name([NotNull] CSharpParser.Type_nameContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.namespace_or_type_name"/>.
 	/// </summary>
@@ -220,6 +238,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNamespace_or_type_name([NotNull] CSharpParser.Namespace_or_type_nameContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.type_"/>.
 	/// </summary>
@@ -230,6 +249,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitType_([NotNull] CSharpParser.Type_Context context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.reference_type"/>.
 	/// </summary>
@@ -240,6 +260,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitReference_type([NotNull] CSharpParser.Reference_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.non_nullable_reference_type"/>.
 	/// </summary>
@@ -250,6 +271,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNon_nullable_reference_type([NotNull] CSharpParser.Non_nullable_reference_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.class_type"/>.
 	/// </summary>
@@ -260,6 +282,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitClass_type([NotNull] CSharpParser.Class_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.interface_type"/>.
 	/// </summary>
@@ -270,6 +293,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInterface_type([NotNull] CSharpParser.Interface_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.array_type"/>.
 	/// </summary>
@@ -280,6 +304,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitArray_type([NotNull] CSharpParser.Array_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.non_array_type"/>.
 	/// </summary>
@@ -290,6 +315,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNon_array_type([NotNull] CSharpParser.Non_array_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.rank_specifier"/>.
 	/// </summary>
@@ -300,6 +326,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRank_specifier([NotNull] CSharpParser.Rank_specifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.delegate_type"/>.
 	/// </summary>
@@ -310,6 +337,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDelegate_type([NotNull] CSharpParser.Delegate_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.nullable_reference_type"/>.
 	/// </summary>
@@ -320,6 +348,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNullable_reference_type([NotNull] CSharpParser.Nullable_reference_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.nullable_type_annotation"/>.
 	/// </summary>
@@ -330,6 +359,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNullable_type_annotation([NotNull] CSharpParser.Nullable_type_annotationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.value_type"/>.
 	/// </summary>
@@ -340,6 +370,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitValue_type([NotNull] CSharpParser.Value_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.non_nullable_value_type"/>.
 	/// </summary>
@@ -350,6 +381,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNon_nullable_value_type([NotNull] CSharpParser.Non_nullable_value_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.struct_type"/>.
 	/// </summary>
@@ -360,6 +392,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStruct_type([NotNull] CSharpParser.Struct_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.simple_type"/>.
 	/// </summary>
@@ -370,6 +403,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSimple_type([NotNull] CSharpParser.Simple_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.numeric_type"/>.
 	/// </summary>
@@ -380,6 +414,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNumeric_type([NotNull] CSharpParser.Numeric_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.integral_type"/>.
 	/// </summary>
@@ -390,6 +425,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitIntegral_type([NotNull] CSharpParser.Integral_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.floating_point_type"/>.
 	/// </summary>
@@ -400,6 +436,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFloating_point_type([NotNull] CSharpParser.Floating_point_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.tuple_type"/>.
 	/// </summary>
@@ -410,6 +447,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitTuple_type([NotNull] CSharpParser.Tuple_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.tuple_type_element"/>.
 	/// </summary>
@@ -420,6 +458,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitTuple_type_element([NotNull] CSharpParser.Tuple_type_elementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.enum_type"/>.
 	/// </summary>
@@ -430,6 +469,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitEnum_type([NotNull] CSharpParser.Enum_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.nullable_value_type"/>.
 	/// </summary>
@@ -440,6 +480,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNullable_value_type([NotNull] CSharpParser.Nullable_value_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.type_argument_list"/>.
 	/// </summary>
@@ -450,6 +491,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitType_argument_list([NotNull] CSharpParser.Type_argument_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.type_argument"/>.
 	/// </summary>
@@ -460,6 +502,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitType_argument([NotNull] CSharpParser.Type_argumentContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.type_parameter"/>.
 	/// </summary>
@@ -470,6 +513,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitType_parameter([NotNull] CSharpParser.Type_parameterContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.unmanaged_type"/>.
 	/// </summary>
@@ -480,6 +524,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitUnmanaged_type([NotNull] CSharpParser.Unmanaged_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.variable_reference"/>.
 	/// </summary>
@@ -490,6 +535,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitVariable_reference([NotNull] CSharpParser.Variable_referenceContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.pattern"/>.
 	/// </summary>
@@ -500,6 +546,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitPattern([NotNull] CSharpParser.PatternContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.declaration_pattern"/>.
 	/// </summary>
@@ -510,6 +557,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDeclaration_pattern([NotNull] CSharpParser.Declaration_patternContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.simple_designation"/>.
 	/// </summary>
@@ -520,6 +568,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSimple_designation([NotNull] CSharpParser.Simple_designationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.discard_designation"/>.
 	/// </summary>
@@ -530,6 +579,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDiscard_designation([NotNull] CSharpParser.Discard_designationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.single_variable_designation"/>.
 	/// </summary>
@@ -540,6 +590,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSingle_variable_designation([NotNull] CSharpParser.Single_variable_designationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.constant_pattern"/>.
 	/// </summary>
@@ -550,6 +601,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConstant_pattern([NotNull] CSharpParser.Constant_patternContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.var_pattern"/>.
 	/// </summary>
@@ -560,6 +612,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitVar_pattern([NotNull] CSharpParser.Var_patternContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.designation"/>.
 	/// </summary>
@@ -570,6 +623,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDesignation([NotNull] CSharpParser.DesignationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.tuple_designation"/>.
 	/// </summary>
@@ -580,6 +634,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitTuple_designation([NotNull] CSharpParser.Tuple_designationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.designations"/>.
 	/// </summary>
@@ -590,6 +645,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDesignations([NotNull] CSharpParser.DesignationsContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.positional_pattern"/>.
 	/// </summary>
@@ -600,6 +656,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitPositional_pattern([NotNull] CSharpParser.Positional_patternContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.subpatterns"/>.
 	/// </summary>
@@ -610,6 +667,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSubpatterns([NotNull] CSharpParser.SubpatternsContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.subpattern"/>.
 	/// </summary>
@@ -620,6 +678,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSubpattern([NotNull] CSharpParser.SubpatternContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.property_pattern"/>.
 	/// </summary>
@@ -630,6 +689,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitProperty_pattern([NotNull] CSharpParser.Property_patternContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.property_subpattern"/>.
 	/// </summary>
@@ -640,6 +700,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitProperty_subpattern([NotNull] CSharpParser.Property_subpatternContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.discard_pattern"/>.
 	/// </summary>
@@ -650,6 +711,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDiscard_pattern([NotNull] CSharpParser.Discard_patternContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.argument_list"/>.
 	/// </summary>
@@ -660,6 +722,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitArgument_list([NotNull] CSharpParser.Argument_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.argument"/>.
 	/// </summary>
@@ -670,6 +733,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitArgument([NotNull] CSharpParser.ArgumentContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.argument_name"/>.
 	/// </summary>
@@ -680,6 +744,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitArgument_name([NotNull] CSharpParser.Argument_nameContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.argument_value"/>.
 	/// </summary>
@@ -690,6 +755,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitArgument_value([NotNull] CSharpParser.Argument_valueContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.primary_expression"/>.
 	/// </summary>
@@ -700,6 +766,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitPrimary_expression([NotNull] CSharpParser.Primary_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.interpolated_string_expression"/>.
 	/// </summary>
@@ -710,6 +777,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInterpolated_string_expression([NotNull] CSharpParser.Interpolated_string_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.interpolated_regular_string_expression"/>.
 	/// </summary>
@@ -720,6 +788,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInterpolated_regular_string_expression([NotNull] CSharpParser.Interpolated_regular_string_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.regular_interpolation"/>.
 	/// </summary>
@@ -730,6 +799,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRegular_interpolation([NotNull] CSharpParser.Regular_interpolationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.interpolation_minimum_width"/>.
 	/// </summary>
@@ -740,6 +810,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInterpolation_minimum_width([NotNull] CSharpParser.Interpolation_minimum_widthContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.interpolated_verbatim_string_expression"/>.
 	/// </summary>
@@ -750,6 +821,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInterpolated_verbatim_string_expression([NotNull] CSharpParser.Interpolated_verbatim_string_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.verbatim_interpolation"/>.
 	/// </summary>
@@ -760,6 +832,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitVerbatim_interpolation([NotNull] CSharpParser.Verbatim_interpolationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.simple_name"/>.
 	/// </summary>
@@ -770,6 +843,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSimple_name([NotNull] CSharpParser.Simple_nameContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.parenthesized_expression"/>.
 	/// </summary>
@@ -780,6 +854,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitParenthesized_expression([NotNull] CSharpParser.Parenthesized_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.tuple_expression"/>.
 	/// </summary>
@@ -790,6 +865,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitTuple_expression([NotNull] CSharpParser.Tuple_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.tuple_element"/>.
 	/// </summary>
@@ -800,6 +876,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitTuple_element([NotNull] CSharpParser.Tuple_elementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.deconstruction_expression"/>.
 	/// </summary>
@@ -810,6 +887,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDeconstruction_expression([NotNull] CSharpParser.Deconstruction_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.deconstruction_tuple"/>.
 	/// </summary>
@@ -820,6 +898,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDeconstruction_tuple([NotNull] CSharpParser.Deconstruction_tupleContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.deconstruction_element"/>.
 	/// </summary>
@@ -830,6 +909,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDeconstruction_element([NotNull] CSharpParser.Deconstruction_elementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.member_access"/>.
 	/// </summary>
@@ -840,6 +920,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitMember_access([NotNull] CSharpParser.Member_accessContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.predefined_type"/>.
 	/// </summary>
@@ -850,6 +931,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitPredefined_type([NotNull] CSharpParser.Predefined_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.null_conditional_member_access"/>.
 	/// </summary>
@@ -860,6 +942,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNull_conditional_member_access([NotNull] CSharpParser.Null_conditional_member_accessContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.dependent_access"/>.
 	/// </summary>
@@ -870,6 +953,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDependent_access([NotNull] CSharpParser.Dependent_accessContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.null_conditional_projection_initializer"/>.
 	/// </summary>
@@ -880,6 +964,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNull_conditional_projection_initializer([NotNull] CSharpParser.Null_conditional_projection_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.null_forgiving_operator"/>.
 	/// </summary>
@@ -890,6 +975,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNull_forgiving_operator([NotNull] CSharpParser.Null_forgiving_operatorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.null_conditional_invocation_expression"/>.
 	/// </summary>
@@ -900,6 +986,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNull_conditional_invocation_expression([NotNull] CSharpParser.Null_conditional_invocation_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.null_conditional_element_access"/>.
 	/// </summary>
@@ -910,6 +997,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNull_conditional_element_access([NotNull] CSharpParser.Null_conditional_element_accessContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.this_access"/>.
 	/// </summary>
@@ -920,6 +1008,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitThis_access([NotNull] CSharpParser.This_accessContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.base_access"/>.
 	/// </summary>
@@ -930,6 +1019,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitBase_access([NotNull] CSharpParser.Base_accessContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.post_increment_expression"/>.
 	/// </summary>
@@ -940,6 +1030,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitPost_increment_expression([NotNull] CSharpParser.Post_increment_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.post_decrement_expression"/>.
 	/// </summary>
@@ -950,6 +1041,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitPost_decrement_expression([NotNull] CSharpParser.Post_decrement_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.object_creation_expression"/>.
 	/// </summary>
@@ -960,6 +1052,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitObject_creation_expression([NotNull] CSharpParser.Object_creation_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.object_or_collection_initializer"/>.
 	/// </summary>
@@ -970,6 +1063,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitObject_or_collection_initializer([NotNull] CSharpParser.Object_or_collection_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.object_initializer"/>.
 	/// </summary>
@@ -980,6 +1074,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitObject_initializer([NotNull] CSharpParser.Object_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.member_initializer_list"/>.
 	/// </summary>
@@ -990,6 +1085,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitMember_initializer_list([NotNull] CSharpParser.Member_initializer_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.member_initializer"/>.
 	/// </summary>
@@ -1000,6 +1096,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitMember_initializer([NotNull] CSharpParser.Member_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.initializer_target"/>.
 	/// </summary>
@@ -1010,6 +1107,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInitializer_target([NotNull] CSharpParser.Initializer_targetContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.initializer_value"/>.
 	/// </summary>
@@ -1020,6 +1118,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInitializer_value([NotNull] CSharpParser.Initializer_valueContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.collection_initializer"/>.
 	/// </summary>
@@ -1030,6 +1129,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitCollection_initializer([NotNull] CSharpParser.Collection_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.element_initializer_list"/>.
 	/// </summary>
@@ -1040,6 +1140,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitElement_initializer_list([NotNull] CSharpParser.Element_initializer_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.element_initializer"/>.
 	/// </summary>
@@ -1050,6 +1151,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitElement_initializer([NotNull] CSharpParser.Element_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.expression_list"/>.
 	/// </summary>
@@ -1060,6 +1162,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitExpression_list([NotNull] CSharpParser.Expression_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.anonymous_object_creation_expression"/>.
 	/// </summary>
@@ -1070,6 +1173,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAnonymous_object_creation_expression([NotNull] CSharpParser.Anonymous_object_creation_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.anonymous_object_initializer"/>.
 	/// </summary>
@@ -1080,6 +1184,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAnonymous_object_initializer([NotNull] CSharpParser.Anonymous_object_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.member_declarator_list"/>.
 	/// </summary>
@@ -1090,6 +1195,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitMember_declarator_list([NotNull] CSharpParser.Member_declarator_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.member_declarator"/>.
 	/// </summary>
@@ -1100,6 +1206,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitMember_declarator([NotNull] CSharpParser.Member_declaratorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.array_creation_expression"/>.
 	/// </summary>
@@ -1110,6 +1217,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitArray_creation_expression([NotNull] CSharpParser.Array_creation_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.delegate_creation_expression"/>.
 	/// </summary>
@@ -1120,6 +1228,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDelegate_creation_expression([NotNull] CSharpParser.Delegate_creation_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.typeof_expression"/>.
 	/// </summary>
@@ -1130,6 +1239,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitTypeof_expression([NotNull] CSharpParser.Typeof_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.unbound_type_name"/>.
 	/// </summary>
@@ -1140,6 +1250,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitUnbound_type_name([NotNull] CSharpParser.Unbound_type_nameContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.unbound_qualified_alias_member"/>.
 	/// </summary>
@@ -1150,6 +1261,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitUnbound_qualified_alias_member([NotNull] CSharpParser.Unbound_qualified_alias_memberContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.generic_dimension_specifier"/>.
 	/// </summary>
@@ -1160,6 +1272,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitGeneric_dimension_specifier([NotNull] CSharpParser.Generic_dimension_specifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.comma"/>.
 	/// </summary>
@@ -1170,6 +1283,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitComma([NotNull] CSharpParser.CommaContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.sizeof_expression"/>.
 	/// </summary>
@@ -1180,6 +1294,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSizeof_expression([NotNull] CSharpParser.Sizeof_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.makeref_expression"/>.
 	/// </summary>
@@ -1190,6 +1305,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitMakeref_expression([NotNull] CSharpParser.Makeref_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.reftype_expression"/>.
 	/// </summary>
@@ -1200,6 +1316,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitReftype_expression([NotNull] CSharpParser.Reftype_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.refvalue_expression"/>.
 	/// </summary>
@@ -1210,6 +1327,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRefvalue_expression([NotNull] CSharpParser.Refvalue_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.checked_expression"/>.
 	/// </summary>
@@ -1220,6 +1338,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitChecked_expression([NotNull] CSharpParser.Checked_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.unchecked_expression"/>.
 	/// </summary>
@@ -1230,6 +1349,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitUnchecked_expression([NotNull] CSharpParser.Unchecked_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.default_value_expression"/>.
 	/// </summary>
@@ -1240,6 +1360,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDefault_value_expression([NotNull] CSharpParser.Default_value_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.explicitly_typed_default"/>.
 	/// </summary>
@@ -1250,6 +1371,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitExplicitly_typed_default([NotNull] CSharpParser.Explicitly_typed_defaultContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.default_literal"/>.
 	/// </summary>
@@ -1260,6 +1382,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDefault_literal([NotNull] CSharpParser.Default_literalContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.stackalloc_expression"/>.
 	/// </summary>
@@ -1270,6 +1393,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStackalloc_expression([NotNull] CSharpParser.Stackalloc_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.stackalloc_initializer"/>.
 	/// </summary>
@@ -1280,6 +1404,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStackalloc_initializer([NotNull] CSharpParser.Stackalloc_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.stackalloc_initializer_element_list"/>.
 	/// </summary>
@@ -1290,6 +1415,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStackalloc_initializer_element_list([NotNull] CSharpParser.Stackalloc_initializer_element_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.stackalloc_element_initializer"/>.
 	/// </summary>
@@ -1300,6 +1426,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStackalloc_element_initializer([NotNull] CSharpParser.Stackalloc_element_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.nameof_expression"/>.
 	/// </summary>
@@ -1310,6 +1437,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNameof_expression([NotNull] CSharpParser.Nameof_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.named_entity"/>.
 	/// </summary>
@@ -1320,6 +1448,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNamed_entity([NotNull] CSharpParser.Named_entityContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.named_entity_target"/>.
 	/// </summary>
@@ -1330,6 +1459,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNamed_entity_target([NotNull] CSharpParser.Named_entity_targetContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.unary_expression"/>.
 	/// </summary>
@@ -1340,6 +1470,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitUnary_expression([NotNull] CSharpParser.Unary_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.pre_increment_expression"/>.
 	/// </summary>
@@ -1350,6 +1481,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitPre_increment_expression([NotNull] CSharpParser.Pre_increment_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.pre_decrement_expression"/>.
 	/// </summary>
@@ -1360,6 +1492,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitPre_decrement_expression([NotNull] CSharpParser.Pre_decrement_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.cast_expression"/>.
 	/// </summary>
@@ -1370,6 +1503,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitCast_expression([NotNull] CSharpParser.Cast_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.await_expression"/>.
 	/// </summary>
@@ -1380,6 +1514,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAwait_expression([NotNull] CSharpParser.Await_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.range_expression"/>.
 	/// </summary>
@@ -1390,6 +1525,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRange_expression([NotNull] CSharpParser.Range_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.switch_expression"/>.
 	/// </summary>
@@ -1400,6 +1536,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSwitch_expression([NotNull] CSharpParser.Switch_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.switch_expression_arms"/>.
 	/// </summary>
@@ -1410,6 +1547,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSwitch_expression_arms([NotNull] CSharpParser.Switch_expression_armsContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.switch_expression_arm"/>.
 	/// </summary>
@@ -1420,6 +1558,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSwitch_expression_arm([NotNull] CSharpParser.Switch_expression_armContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.switch_expression_arm_expression"/>.
 	/// </summary>
@@ -1430,6 +1569,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSwitch_expression_arm_expression([NotNull] CSharpParser.Switch_expression_arm_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.multiplicative_expression"/>.
 	/// </summary>
@@ -1440,6 +1580,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitMultiplicative_expression([NotNull] CSharpParser.Multiplicative_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.additive_expression"/>.
 	/// </summary>
@@ -1450,6 +1591,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAdditive_expression([NotNull] CSharpParser.Additive_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.shift_expression"/>.
 	/// </summary>
@@ -1460,6 +1602,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitShift_expression([NotNull] CSharpParser.Shift_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.relational_expression"/>.
 	/// </summary>
@@ -1470,6 +1613,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRelational_expression([NotNull] CSharpParser.Relational_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.equality_expression"/>.
 	/// </summary>
@@ -1480,6 +1624,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitEquality_expression([NotNull] CSharpParser.Equality_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.and_expression"/>.
 	/// </summary>
@@ -1490,6 +1635,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAnd_expression([NotNull] CSharpParser.And_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.exclusive_or_expression"/>.
 	/// </summary>
@@ -1500,6 +1646,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitExclusive_or_expression([NotNull] CSharpParser.Exclusive_or_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.inclusive_or_expression"/>.
 	/// </summary>
@@ -1510,6 +1657,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInclusive_or_expression([NotNull] CSharpParser.Inclusive_or_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.conditional_and_expression"/>.
 	/// </summary>
@@ -1520,6 +1668,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConditional_and_expression([NotNull] CSharpParser.Conditional_and_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.conditional_or_expression"/>.
 	/// </summary>
@@ -1530,6 +1679,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConditional_or_expression([NotNull] CSharpParser.Conditional_or_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.null_coalescing_expression"/>.
 	/// </summary>
@@ -1540,6 +1690,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNull_coalescing_expression([NotNull] CSharpParser.Null_coalescing_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.throw_expression"/>.
 	/// </summary>
@@ -1550,6 +1701,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitThrow_expression([NotNull] CSharpParser.Throw_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.declaration_expression"/>.
 	/// </summary>
@@ -1560,6 +1712,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDeclaration_expression([NotNull] CSharpParser.Declaration_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.conditional_expression"/>.
 	/// </summary>
@@ -1570,6 +1723,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConditional_expression([NotNull] CSharpParser.Conditional_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.lambda_expression"/>.
 	/// </summary>
@@ -1580,6 +1734,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitLambda_expression([NotNull] CSharpParser.Lambda_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.anonymous_method_expression"/>.
 	/// </summary>
@@ -1590,6 +1745,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAnonymous_method_expression([NotNull] CSharpParser.Anonymous_method_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.anonymous_function_signature"/>.
 	/// </summary>
@@ -1600,6 +1756,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAnonymous_function_signature([NotNull] CSharpParser.Anonymous_function_signatureContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.explicit_anonymous_function_signature"/>.
 	/// </summary>
@@ -1610,6 +1767,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitExplicit_anonymous_function_signature([NotNull] CSharpParser.Explicit_anonymous_function_signatureContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.explicit_anonymous_function_parameter_list"/>.
 	/// </summary>
@@ -1620,6 +1778,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitExplicit_anonymous_function_parameter_list([NotNull] CSharpParser.Explicit_anonymous_function_parameter_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.explicit_anonymous_function_parameter"/>.
 	/// </summary>
@@ -1630,6 +1789,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitExplicit_anonymous_function_parameter([NotNull] CSharpParser.Explicit_anonymous_function_parameterContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.anonymous_function_parameter_modifier"/>.
 	/// </summary>
@@ -1640,6 +1800,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAnonymous_function_parameter_modifier([NotNull] CSharpParser.Anonymous_function_parameter_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.implicit_anonymous_function_signature"/>.
 	/// </summary>
@@ -1650,6 +1811,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitImplicit_anonymous_function_signature([NotNull] CSharpParser.Implicit_anonymous_function_signatureContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.implicit_anonymous_function_parameter_list"/>.
 	/// </summary>
@@ -1660,6 +1822,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitImplicit_anonymous_function_parameter_list([NotNull] CSharpParser.Implicit_anonymous_function_parameter_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.implicit_anonymous_function_parameter"/>.
 	/// </summary>
@@ -1670,6 +1833,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitImplicit_anonymous_function_parameter([NotNull] CSharpParser.Implicit_anonymous_function_parameterContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.anonymous_function_body"/>.
 	/// </summary>
@@ -1680,6 +1844,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAnonymous_function_body([NotNull] CSharpParser.Anonymous_function_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.query_expression"/>.
 	/// </summary>
@@ -1690,6 +1855,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitQuery_expression([NotNull] CSharpParser.Query_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.from_clause"/>.
 	/// </summary>
@@ -1700,6 +1866,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFrom_clause([NotNull] CSharpParser.From_clauseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.query_body"/>.
 	/// </summary>
@@ -1710,6 +1877,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitQuery_body([NotNull] CSharpParser.Query_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.query_body_clause"/>.
 	/// </summary>
@@ -1720,6 +1888,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitQuery_body_clause([NotNull] CSharpParser.Query_body_clauseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.let_clause"/>.
 	/// </summary>
@@ -1730,6 +1899,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitLet_clause([NotNull] CSharpParser.Let_clauseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.where_clause"/>.
 	/// </summary>
@@ -1740,6 +1910,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitWhere_clause([NotNull] CSharpParser.Where_clauseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.join_clause"/>.
 	/// </summary>
@@ -1750,6 +1921,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitJoin_clause([NotNull] CSharpParser.Join_clauseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.join_into_clause"/>.
 	/// </summary>
@@ -1760,6 +1932,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitJoin_into_clause([NotNull] CSharpParser.Join_into_clauseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.orderby_clause"/>.
 	/// </summary>
@@ -1770,6 +1943,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitOrderby_clause([NotNull] CSharpParser.Orderby_clauseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.orderings"/>.
 	/// </summary>
@@ -1780,6 +1954,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitOrderings([NotNull] CSharpParser.OrderingsContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.ordering"/>.
 	/// </summary>
@@ -1790,6 +1965,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitOrdering([NotNull] CSharpParser.OrderingContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.ordering_direction"/>.
 	/// </summary>
@@ -1800,6 +1976,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitOrdering_direction([NotNull] CSharpParser.Ordering_directionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.select_or_group_clause"/>.
 	/// </summary>
@@ -1810,6 +1987,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSelect_or_group_clause([NotNull] CSharpParser.Select_or_group_clauseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.select_clause"/>.
 	/// </summary>
@@ -1820,6 +1998,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSelect_clause([NotNull] CSharpParser.Select_clauseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.group_clause"/>.
 	/// </summary>
@@ -1830,6 +2009,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitGroup_clause([NotNull] CSharpParser.Group_clauseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.query_continuation"/>.
 	/// </summary>
@@ -1840,6 +2020,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitQuery_continuation([NotNull] CSharpParser.Query_continuationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.assignment"/>.
 	/// </summary>
@@ -1850,6 +2031,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAssignment([NotNull] CSharpParser.AssignmentContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.assignment_operator"/>.
 	/// </summary>
@@ -1860,6 +2042,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAssignment_operator([NotNull] CSharpParser.Assignment_operatorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.expression"/>.
 	/// </summary>
@@ -1870,6 +2053,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitExpression([NotNull] CSharpParser.ExpressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.non_assignment_expression"/>.
 	/// </summary>
@@ -1880,6 +2064,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNon_assignment_expression([NotNull] CSharpParser.Non_assignment_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.constant_expression"/>.
 	/// </summary>
@@ -1890,6 +2075,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConstant_expression([NotNull] CSharpParser.Constant_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.boolean_expression"/>.
 	/// </summary>
@@ -1900,6 +2086,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitBoolean_expression([NotNull] CSharpParser.Boolean_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.statement"/>.
 	/// </summary>
@@ -1910,6 +2097,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStatement([NotNull] CSharpParser.StatementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.embedded_statement"/>.
 	/// </summary>
@@ -1920,6 +2108,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitEmbedded_statement([NotNull] CSharpParser.Embedded_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.block"/>.
 	/// </summary>
@@ -1930,6 +2119,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitBlock([NotNull] CSharpParser.BlockContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.statement_list"/>.
 	/// </summary>
@@ -1940,6 +2130,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStatement_list([NotNull] CSharpParser.Statement_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.empty_statement"/>.
 	/// </summary>
@@ -1950,6 +2141,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitEmpty_statement([NotNull] CSharpParser.Empty_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.labeled_statement"/>.
 	/// </summary>
@@ -1960,6 +2152,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitLabeled_statement([NotNull] CSharpParser.Labeled_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.declaration_statement"/>.
 	/// </summary>
@@ -1970,6 +2163,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDeclaration_statement([NotNull] CSharpParser.Declaration_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.local_variable_declaration"/>.
 	/// </summary>
@@ -1980,6 +2174,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitLocal_variable_declaration([NotNull] CSharpParser.Local_variable_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.local_variable_type"/>.
 	/// </summary>
@@ -1990,6 +2185,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitLocal_variable_type([NotNull] CSharpParser.Local_variable_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.local_variable_declarator"/>.
 	/// </summary>
@@ -2000,6 +2196,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitLocal_variable_declarator([NotNull] CSharpParser.Local_variable_declaratorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.local_variable_initializer"/>.
 	/// </summary>
@@ -2010,6 +2207,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitLocal_variable_initializer([NotNull] CSharpParser.Local_variable_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.local_constant_declaration"/>.
 	/// </summary>
@@ -2020,6 +2218,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitLocal_constant_declaration([NotNull] CSharpParser.Local_constant_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.constant_declarators"/>.
 	/// </summary>
@@ -2030,6 +2229,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConstant_declarators([NotNull] CSharpParser.Constant_declaratorsContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.constant_declarator"/>.
 	/// </summary>
@@ -2040,6 +2240,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConstant_declarator([NotNull] CSharpParser.Constant_declaratorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.local_function_declaration"/>.
 	/// </summary>
@@ -2050,6 +2251,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitLocal_function_declaration([NotNull] CSharpParser.Local_function_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.local_function_header"/>.
 	/// </summary>
@@ -2060,6 +2262,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitLocal_function_header([NotNull] CSharpParser.Local_function_headerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.local_function_modifier"/>.
 	/// </summary>
@@ -2070,6 +2273,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitLocal_function_modifier([NotNull] CSharpParser.Local_function_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.ref_local_function_modifier"/>.
 	/// </summary>
@@ -2080,6 +2284,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRef_local_function_modifier([NotNull] CSharpParser.Ref_local_function_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.local_function_body"/>.
 	/// </summary>
@@ -2090,6 +2295,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitLocal_function_body([NotNull] CSharpParser.Local_function_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.ref_local_function_body"/>.
 	/// </summary>
@@ -2100,6 +2306,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRef_local_function_body([NotNull] CSharpParser.Ref_local_function_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.expression_statement"/>.
 	/// </summary>
@@ -2110,6 +2317,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitExpression_statement([NotNull] CSharpParser.Expression_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.statement_expression"/>.
 	/// </summary>
@@ -2120,6 +2328,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStatement_expression([NotNull] CSharpParser.Statement_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.selection_statement"/>.
 	/// </summary>
@@ -2130,6 +2339,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSelection_statement([NotNull] CSharpParser.Selection_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.if_statement"/>.
 	/// </summary>
@@ -2140,6 +2350,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitIf_statement([NotNull] CSharpParser.If_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.switch_statement"/>.
 	/// </summary>
@@ -2150,6 +2361,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSwitch_statement([NotNull] CSharpParser.Switch_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.selector_expression"/>.
 	/// </summary>
@@ -2160,6 +2372,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSelector_expression([NotNull] CSharpParser.Selector_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.switch_block"/>.
 	/// </summary>
@@ -2170,6 +2383,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSwitch_block([NotNull] CSharpParser.Switch_blockContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.switch_section"/>.
 	/// </summary>
@@ -2180,6 +2394,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSwitch_section([NotNull] CSharpParser.Switch_sectionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.switch_label"/>.
 	/// </summary>
@@ -2190,6 +2405,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSwitch_label([NotNull] CSharpParser.Switch_labelContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.case_guard"/>.
 	/// </summary>
@@ -2200,6 +2416,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitCase_guard([NotNull] CSharpParser.Case_guardContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.iteration_statement"/>.
 	/// </summary>
@@ -2210,6 +2427,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitIteration_statement([NotNull] CSharpParser.Iteration_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.while_statement"/>.
 	/// </summary>
@@ -2220,6 +2438,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitWhile_statement([NotNull] CSharpParser.While_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.do_statement"/>.
 	/// </summary>
@@ -2230,6 +2449,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDo_statement([NotNull] CSharpParser.Do_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.for_statement"/>.
 	/// </summary>
@@ -2240,6 +2460,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFor_statement([NotNull] CSharpParser.For_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.for_initializer"/>.
 	/// </summary>
@@ -2250,6 +2471,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFor_initializer([NotNull] CSharpParser.For_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.for_condition"/>.
 	/// </summary>
@@ -2260,6 +2482,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFor_condition([NotNull] CSharpParser.For_conditionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.for_iterator"/>.
 	/// </summary>
@@ -2270,6 +2493,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFor_iterator([NotNull] CSharpParser.For_iteratorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.statement_expression_list"/>.
 	/// </summary>
@@ -2280,6 +2504,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStatement_expression_list([NotNull] CSharpParser.Statement_expression_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.foreach_statement"/>.
 	/// </summary>
@@ -2290,6 +2515,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitForeach_statement([NotNull] CSharpParser.Foreach_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.jump_statement"/>.
 	/// </summary>
@@ -2300,6 +2526,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitJump_statement([NotNull] CSharpParser.Jump_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.break_statement"/>.
 	/// </summary>
@@ -2310,6 +2537,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitBreak_statement([NotNull] CSharpParser.Break_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.continue_statement"/>.
 	/// </summary>
@@ -2320,6 +2548,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitContinue_statement([NotNull] CSharpParser.Continue_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.goto_statement"/>.
 	/// </summary>
@@ -2330,6 +2559,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitGoto_statement([NotNull] CSharpParser.Goto_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.return_statement"/>.
 	/// </summary>
@@ -2340,6 +2570,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitReturn_statement([NotNull] CSharpParser.Return_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.throw_statement"/>.
 	/// </summary>
@@ -2350,6 +2581,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitThrow_statement([NotNull] CSharpParser.Throw_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.try_statement"/>.
 	/// </summary>
@@ -2360,6 +2592,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitTry_statement([NotNull] CSharpParser.Try_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.catch_clauses"/>.
 	/// </summary>
@@ -2370,6 +2603,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitCatch_clauses([NotNull] CSharpParser.Catch_clausesContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.specific_catch_clause"/>.
 	/// </summary>
@@ -2380,6 +2614,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSpecific_catch_clause([NotNull] CSharpParser.Specific_catch_clauseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.exception_specifier"/>.
 	/// </summary>
@@ -2390,6 +2625,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitException_specifier([NotNull] CSharpParser.Exception_specifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.exception_filter"/>.
 	/// </summary>
@@ -2400,6 +2636,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitException_filter([NotNull] CSharpParser.Exception_filterContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.general_catch_clause"/>.
 	/// </summary>
@@ -2410,6 +2647,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitGeneral_catch_clause([NotNull] CSharpParser.General_catch_clauseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.finally_clause"/>.
 	/// </summary>
@@ -2420,6 +2658,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFinally_clause([NotNull] CSharpParser.Finally_clauseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.checked_statement"/>.
 	/// </summary>
@@ -2430,6 +2669,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitChecked_statement([NotNull] CSharpParser.Checked_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.unchecked_statement"/>.
 	/// </summary>
@@ -2440,6 +2680,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitUnchecked_statement([NotNull] CSharpParser.Unchecked_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.lock_statement"/>.
 	/// </summary>
@@ -2450,6 +2691,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitLock_statement([NotNull] CSharpParser.Lock_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.using_statement"/>.
 	/// </summary>
@@ -2460,6 +2702,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitUsing_statement([NotNull] CSharpParser.Using_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.resource_acquisition"/>.
 	/// </summary>
@@ -2470,6 +2713,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitResource_acquisition([NotNull] CSharpParser.Resource_acquisitionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.non_ref_local_variable_declaration"/>.
 	/// </summary>
@@ -2480,6 +2724,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNon_ref_local_variable_declaration([NotNull] CSharpParser.Non_ref_local_variable_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.using_declaration"/>.
 	/// </summary>
@@ -2490,6 +2735,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitUsing_declaration([NotNull] CSharpParser.Using_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.yield_statement"/>.
 	/// </summary>
@@ -2500,6 +2746,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitYield_statement([NotNull] CSharpParser.Yield_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.compilation_unit"/>.
 	/// </summary>
@@ -2510,6 +2757,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitCompilation_unit([NotNull] CSharpParser.Compilation_unitContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.namespace_declaration"/>.
 	/// </summary>
@@ -2520,6 +2768,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNamespace_declaration([NotNull] CSharpParser.Namespace_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.qualified_identifier"/>.
 	/// </summary>
@@ -2530,6 +2779,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitQualified_identifier([NotNull] CSharpParser.Qualified_identifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.namespace_body"/>.
 	/// </summary>
@@ -2540,6 +2790,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNamespace_body([NotNull] CSharpParser.Namespace_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.extern_alias_directive"/>.
 	/// </summary>
@@ -2550,6 +2801,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitExtern_alias_directive([NotNull] CSharpParser.Extern_alias_directiveContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.using_directive"/>.
 	/// </summary>
@@ -2560,6 +2812,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitUsing_directive([NotNull] CSharpParser.Using_directiveContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.using_alias_directive"/>.
 	/// </summary>
@@ -2570,6 +2823,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitUsing_alias_directive([NotNull] CSharpParser.Using_alias_directiveContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.using_namespace_directive"/>.
 	/// </summary>
@@ -2580,6 +2834,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitUsing_namespace_directive([NotNull] CSharpParser.Using_namespace_directiveContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.using_static_directive"/>.
 	/// </summary>
@@ -2590,6 +2845,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitUsing_static_directive([NotNull] CSharpParser.Using_static_directiveContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.namespace_member_declaration"/>.
 	/// </summary>
@@ -2600,6 +2856,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNamespace_member_declaration([NotNull] CSharpParser.Namespace_member_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.type_declaration"/>.
 	/// </summary>
@@ -2610,6 +2867,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitType_declaration([NotNull] CSharpParser.Type_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.qualified_alias_member"/>.
 	/// </summary>
@@ -2620,6 +2878,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitQualified_alias_member([NotNull] CSharpParser.Qualified_alias_memberContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.class_declaration"/>.
 	/// </summary>
@@ -2630,6 +2889,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitClass_declaration([NotNull] CSharpParser.Class_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.class_modifier"/>.
 	/// </summary>
@@ -2640,6 +2900,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitClass_modifier([NotNull] CSharpParser.Class_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.type_parameter_list"/>.
 	/// </summary>
@@ -2650,6 +2911,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitType_parameter_list([NotNull] CSharpParser.Type_parameter_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.decorated_type_parameter"/>.
 	/// </summary>
@@ -2660,6 +2922,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDecorated_type_parameter([NotNull] CSharpParser.Decorated_type_parameterContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.class_base"/>.
 	/// </summary>
@@ -2670,6 +2933,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitClass_base([NotNull] CSharpParser.Class_baseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.interface_type_list"/>.
 	/// </summary>
@@ -2680,6 +2944,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInterface_type_list([NotNull] CSharpParser.Interface_type_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.type_parameter_constraints_clause"/>.
 	/// </summary>
@@ -2690,6 +2955,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitType_parameter_constraints_clause([NotNull] CSharpParser.Type_parameter_constraints_clauseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.type_parameter_constraints"/>.
 	/// </summary>
@@ -2700,6 +2966,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitType_parameter_constraints([NotNull] CSharpParser.Type_parameter_constraintsContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.primary_constraint"/>.
 	/// </summary>
@@ -2710,6 +2977,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitPrimary_constraint([NotNull] CSharpParser.Primary_constraintContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.secondary_constraint"/>.
 	/// </summary>
@@ -2720,6 +2988,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSecondary_constraint([NotNull] CSharpParser.Secondary_constraintContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.secondary_constraints"/>.
 	/// </summary>
@@ -2730,6 +2999,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSecondary_constraints([NotNull] CSharpParser.Secondary_constraintsContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.constructor_constraint"/>.
 	/// </summary>
@@ -2740,6 +3010,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConstructor_constraint([NotNull] CSharpParser.Constructor_constraintContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.class_body"/>.
 	/// </summary>
@@ -2750,6 +3021,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitClass_body([NotNull] CSharpParser.Class_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.class_member_declaration"/>.
 	/// </summary>
@@ -2760,6 +3032,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitClass_member_declaration([NotNull] CSharpParser.Class_member_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.constant_declaration"/>.
 	/// </summary>
@@ -2770,6 +3043,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConstant_declaration([NotNull] CSharpParser.Constant_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.constant_modifier"/>.
 	/// </summary>
@@ -2780,6 +3054,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConstant_modifier([NotNull] CSharpParser.Constant_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.field_declaration"/>.
 	/// </summary>
@@ -2790,6 +3065,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitField_declaration([NotNull] CSharpParser.Field_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.field_modifier"/>.
 	/// </summary>
@@ -2800,6 +3076,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitField_modifier([NotNull] CSharpParser.Field_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.variable_declarators"/>.
 	/// </summary>
@@ -2810,6 +3087,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitVariable_declarators([NotNull] CSharpParser.Variable_declaratorsContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.variable_declarator"/>.
 	/// </summary>
@@ -2820,6 +3098,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitVariable_declarator([NotNull] CSharpParser.Variable_declaratorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.method_declaration"/>.
 	/// </summary>
@@ -2830,6 +3109,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitMethod_declaration([NotNull] CSharpParser.Method_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.method_modifiers"/>.
 	/// </summary>
@@ -2840,6 +3120,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitMethod_modifiers([NotNull] CSharpParser.Method_modifiersContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.ref_kind"/>.
 	/// </summary>
@@ -2850,6 +3131,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRef_kind([NotNull] CSharpParser.Ref_kindContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.ref_method_modifiers"/>.
 	/// </summary>
@@ -2860,6 +3142,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRef_method_modifiers([NotNull] CSharpParser.Ref_method_modifiersContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.method_header"/>.
 	/// </summary>
@@ -2870,6 +3153,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitMethod_header([NotNull] CSharpParser.Method_headerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.method_modifier"/>.
 	/// </summary>
@@ -2880,6 +3164,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitMethod_modifier([NotNull] CSharpParser.Method_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.ref_method_modifier"/>.
 	/// </summary>
@@ -2890,6 +3175,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRef_method_modifier([NotNull] CSharpParser.Ref_method_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.return_type"/>.
 	/// </summary>
@@ -2900,6 +3186,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitReturn_type([NotNull] CSharpParser.Return_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.ref_return_type"/>.
 	/// </summary>
@@ -2910,6 +3197,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRef_return_type([NotNull] CSharpParser.Ref_return_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.member_name"/>.
 	/// </summary>
@@ -2920,6 +3208,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitMember_name([NotNull] CSharpParser.Member_nameContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.method_body"/>.
 	/// </summary>
@@ -2930,6 +3219,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitMethod_body([NotNull] CSharpParser.Method_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.ref_method_body"/>.
 	/// </summary>
@@ -2940,6 +3230,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRef_method_body([NotNull] CSharpParser.Ref_method_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.parameter_list"/>.
 	/// </summary>
@@ -2950,6 +3241,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitParameter_list([NotNull] CSharpParser.Parameter_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.fixed_parameters"/>.
 	/// </summary>
@@ -2960,6 +3252,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFixed_parameters([NotNull] CSharpParser.Fixed_parametersContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.fixed_parameter"/>.
 	/// </summary>
@@ -2970,6 +3263,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFixed_parameter([NotNull] CSharpParser.Fixed_parameterContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.default_argument"/>.
 	/// </summary>
@@ -2980,6 +3274,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDefault_argument([NotNull] CSharpParser.Default_argumentContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.parameter_modifier"/>.
 	/// </summary>
@@ -2990,6 +3285,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitParameter_modifier([NotNull] CSharpParser.Parameter_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.parameter_mode_modifier"/>.
 	/// </summary>
@@ -3000,6 +3296,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitParameter_mode_modifier([NotNull] CSharpParser.Parameter_mode_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.parameter_array"/>.
 	/// </summary>
@@ -3010,6 +3307,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitParameter_array([NotNull] CSharpParser.Parameter_arrayContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.property_declaration"/>.
 	/// </summary>
@@ -3020,6 +3318,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitProperty_declaration([NotNull] CSharpParser.Property_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.property_modifier"/>.
 	/// </summary>
@@ -3030,6 +3329,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitProperty_modifier([NotNull] CSharpParser.Property_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.property_body"/>.
 	/// </summary>
@@ -3040,6 +3340,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitProperty_body([NotNull] CSharpParser.Property_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.property_initializer"/>.
 	/// </summary>
@@ -3050,6 +3351,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitProperty_initializer([NotNull] CSharpParser.Property_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.ref_property_body"/>.
 	/// </summary>
@@ -3060,6 +3362,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRef_property_body([NotNull] CSharpParser.Ref_property_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.accessor_declarations"/>.
 	/// </summary>
@@ -3070,6 +3373,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAccessor_declarations([NotNull] CSharpParser.Accessor_declarationsContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.get_accessor_declaration"/>.
 	/// </summary>
@@ -3080,6 +3384,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitGet_accessor_declaration([NotNull] CSharpParser.Get_accessor_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.set_accessor_declaration"/>.
 	/// </summary>
@@ -3090,6 +3395,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitSet_accessor_declaration([NotNull] CSharpParser.Set_accessor_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.accessor_modifier"/>.
 	/// </summary>
@@ -3100,6 +3406,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAccessor_modifier([NotNull] CSharpParser.Accessor_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.accessor_body"/>.
 	/// </summary>
@@ -3110,6 +3417,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAccessor_body([NotNull] CSharpParser.Accessor_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.ref_get_accessor_declaration"/>.
 	/// </summary>
@@ -3120,6 +3428,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRef_get_accessor_declaration([NotNull] CSharpParser.Ref_get_accessor_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.ref_accessor_body"/>.
 	/// </summary>
@@ -3130,6 +3439,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRef_accessor_body([NotNull] CSharpParser.Ref_accessor_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.event_declaration"/>.
 	/// </summary>
@@ -3140,6 +3450,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitEvent_declaration([NotNull] CSharpParser.Event_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.event_modifier"/>.
 	/// </summary>
@@ -3150,6 +3461,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitEvent_modifier([NotNull] CSharpParser.Event_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.event_accessor_declarations"/>.
 	/// </summary>
@@ -3160,6 +3472,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitEvent_accessor_declarations([NotNull] CSharpParser.Event_accessor_declarationsContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.add_accessor_declaration"/>.
 	/// </summary>
@@ -3170,6 +3483,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAdd_accessor_declaration([NotNull] CSharpParser.Add_accessor_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.remove_accessor_declaration"/>.
 	/// </summary>
@@ -3180,6 +3494,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRemove_accessor_declaration([NotNull] CSharpParser.Remove_accessor_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.indexer_declaration"/>.
 	/// </summary>
@@ -3190,6 +3505,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitIndexer_declaration([NotNull] CSharpParser.Indexer_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.indexer_modifier"/>.
 	/// </summary>
@@ -3200,6 +3516,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitIndexer_modifier([NotNull] CSharpParser.Indexer_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.indexer_declarator"/>.
 	/// </summary>
@@ -3210,6 +3527,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitIndexer_declarator([NotNull] CSharpParser.Indexer_declaratorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.indexer_body"/>.
 	/// </summary>
@@ -3220,6 +3538,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitIndexer_body([NotNull] CSharpParser.Indexer_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.ref_indexer_body"/>.
 	/// </summary>
@@ -3230,6 +3549,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitRef_indexer_body([NotNull] CSharpParser.Ref_indexer_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.operator_declaration"/>.
 	/// </summary>
@@ -3240,6 +3560,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitOperator_declaration([NotNull] CSharpParser.Operator_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.operator_modifier"/>.
 	/// </summary>
@@ -3250,6 +3571,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitOperator_modifier([NotNull] CSharpParser.Operator_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.operator_declarator"/>.
 	/// </summary>
@@ -3260,6 +3582,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitOperator_declarator([NotNull] CSharpParser.Operator_declaratorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.unary_operator_declarator"/>.
 	/// </summary>
@@ -3270,6 +3593,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitUnary_operator_declarator([NotNull] CSharpParser.Unary_operator_declaratorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.logical_negation_operator"/>.
 	/// </summary>
@@ -3280,6 +3604,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitLogical_negation_operator([NotNull] CSharpParser.Logical_negation_operatorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.overloadable_unary_operator"/>.
 	/// </summary>
@@ -3290,6 +3615,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitOverloadable_unary_operator([NotNull] CSharpParser.Overloadable_unary_operatorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.binary_operator_declarator"/>.
 	/// </summary>
@@ -3300,6 +3626,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitBinary_operator_declarator([NotNull] CSharpParser.Binary_operator_declaratorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.overloadable_binary_operator"/>.
 	/// </summary>
@@ -3310,6 +3637,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitOverloadable_binary_operator([NotNull] CSharpParser.Overloadable_binary_operatorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.conversion_operator_declarator"/>.
 	/// </summary>
@@ -3320,6 +3648,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConversion_operator_declarator([NotNull] CSharpParser.Conversion_operator_declaratorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.operator_body"/>.
 	/// </summary>
@@ -3330,6 +3659,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitOperator_body([NotNull] CSharpParser.Operator_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.constructor_declaration"/>.
 	/// </summary>
@@ -3340,6 +3670,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConstructor_declaration([NotNull] CSharpParser.Constructor_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.constructor_modifier"/>.
 	/// </summary>
@@ -3350,6 +3681,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConstructor_modifier([NotNull] CSharpParser.Constructor_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.constructor_declarator"/>.
 	/// </summary>
@@ -3360,6 +3692,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConstructor_declarator([NotNull] CSharpParser.Constructor_declaratorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.constructor_initializer"/>.
 	/// </summary>
@@ -3370,6 +3703,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConstructor_initializer([NotNull] CSharpParser.Constructor_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.constructor_body"/>.
 	/// </summary>
@@ -3380,6 +3714,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitConstructor_body([NotNull] CSharpParser.Constructor_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.static_constructor_declaration"/>.
 	/// </summary>
@@ -3390,6 +3725,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStatic_constructor_declaration([NotNull] CSharpParser.Static_constructor_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.static_constructor_modifiers"/>.
 	/// </summary>
@@ -3400,6 +3736,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStatic_constructor_modifiers([NotNull] CSharpParser.Static_constructor_modifiersContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.static_constructor_body"/>.
 	/// </summary>
@@ -3410,6 +3747,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStatic_constructor_body([NotNull] CSharpParser.Static_constructor_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.finalizer_declaration"/>.
 	/// </summary>
@@ -3420,6 +3758,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFinalizer_declaration([NotNull] CSharpParser.Finalizer_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.finalizer_body"/>.
 	/// </summary>
@@ -3430,6 +3769,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFinalizer_body([NotNull] CSharpParser.Finalizer_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.struct_declaration"/>.
 	/// </summary>
@@ -3440,6 +3780,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStruct_declaration([NotNull] CSharpParser.Struct_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.struct_modifier"/>.
 	/// </summary>
@@ -3450,6 +3791,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStruct_modifier([NotNull] CSharpParser.Struct_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.struct_interfaces"/>.
 	/// </summary>
@@ -3460,6 +3802,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStruct_interfaces([NotNull] CSharpParser.Struct_interfacesContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.struct_body"/>.
 	/// </summary>
@@ -3470,6 +3813,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStruct_body([NotNull] CSharpParser.Struct_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.struct_member_declaration"/>.
 	/// </summary>
@@ -3480,6 +3824,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitStruct_member_declaration([NotNull] CSharpParser.Struct_member_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.array_initializer"/>.
 	/// </summary>
@@ -3490,6 +3835,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitArray_initializer([NotNull] CSharpParser.Array_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.variable_initializer_list"/>.
 	/// </summary>
@@ -3500,6 +3846,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitVariable_initializer_list([NotNull] CSharpParser.Variable_initializer_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.variable_initializer"/>.
 	/// </summary>
@@ -3510,6 +3857,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitVariable_initializer([NotNull] CSharpParser.Variable_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.interface_declaration"/>.
 	/// </summary>
@@ -3520,6 +3868,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInterface_declaration([NotNull] CSharpParser.Interface_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.interface_modifier"/>.
 	/// </summary>
@@ -3530,6 +3879,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInterface_modifier([NotNull] CSharpParser.Interface_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.variant_type_parameter_list"/>.
 	/// </summary>
@@ -3540,6 +3890,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitVariant_type_parameter_list([NotNull] CSharpParser.Variant_type_parameter_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.variant_type_parameter"/>.
 	/// </summary>
@@ -3550,6 +3901,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitVariant_type_parameter([NotNull] CSharpParser.Variant_type_parameterContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.variance_annotation"/>.
 	/// </summary>
@@ -3560,6 +3912,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitVariance_annotation([NotNull] CSharpParser.Variance_annotationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.interface_base"/>.
 	/// </summary>
@@ -3570,6 +3923,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInterface_base([NotNull] CSharpParser.Interface_baseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.interface_body"/>.
 	/// </summary>
@@ -3580,6 +3934,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInterface_body([NotNull] CSharpParser.Interface_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.interface_member_declaration"/>.
 	/// </summary>
@@ -3590,6 +3945,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitInterface_member_declaration([NotNull] CSharpParser.Interface_member_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.enum_declaration"/>.
 	/// </summary>
@@ -3600,6 +3956,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitEnum_declaration([NotNull] CSharpParser.Enum_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.enum_base"/>.
 	/// </summary>
@@ -3610,6 +3967,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitEnum_base([NotNull] CSharpParser.Enum_baseContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.integral_type_name"/>.
 	/// </summary>
@@ -3620,6 +3978,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitIntegral_type_name([NotNull] CSharpParser.Integral_type_nameContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.enum_body"/>.
 	/// </summary>
@@ -3630,6 +3989,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitEnum_body([NotNull] CSharpParser.Enum_bodyContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.enum_modifier"/>.
 	/// </summary>
@@ -3640,6 +4000,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitEnum_modifier([NotNull] CSharpParser.Enum_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.enum_member_declarations"/>.
 	/// </summary>
@@ -3650,6 +4011,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitEnum_member_declarations([NotNull] CSharpParser.Enum_member_declarationsContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.enum_member_declaration"/>.
 	/// </summary>
@@ -3660,6 +4022,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitEnum_member_declaration([NotNull] CSharpParser.Enum_member_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.delegate_declaration"/>.
 	/// </summary>
@@ -3670,6 +4033,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDelegate_declaration([NotNull] CSharpParser.Delegate_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.delegate_header"/>.
 	/// </summary>
@@ -3680,6 +4044,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDelegate_header([NotNull] CSharpParser.Delegate_headerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.delegate_modifier"/>.
 	/// </summary>
@@ -3690,6 +4055,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitDelegate_modifier([NotNull] CSharpParser.Delegate_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.global_attributes"/>.
 	/// </summary>
@@ -3700,6 +4066,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitGlobal_attributes([NotNull] CSharpParser.Global_attributesContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.global_attribute_section"/>.
 	/// </summary>
@@ -3710,6 +4077,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitGlobal_attribute_section([NotNull] CSharpParser.Global_attribute_sectionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.global_attribute_target_specifier"/>.
 	/// </summary>
@@ -3720,6 +4088,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitGlobal_attribute_target_specifier([NotNull] CSharpParser.Global_attribute_target_specifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.global_attribute_target"/>.
 	/// </summary>
@@ -3730,6 +4099,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitGlobal_attribute_target([NotNull] CSharpParser.Global_attribute_targetContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.attributes"/>.
 	/// </summary>
@@ -3740,6 +4110,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAttributes([NotNull] CSharpParser.AttributesContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.attribute_section"/>.
 	/// </summary>
@@ -3750,6 +4121,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAttribute_section([NotNull] CSharpParser.Attribute_sectionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.attribute_target_specifier"/>.
 	/// </summary>
@@ -3760,6 +4132,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAttribute_target_specifier([NotNull] CSharpParser.Attribute_target_specifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.attribute_target"/>.
 	/// </summary>
@@ -3770,6 +4143,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAttribute_target([NotNull] CSharpParser.Attribute_targetContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.attribute_list"/>.
 	/// </summary>
@@ -3780,6 +4154,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAttribute_list([NotNull] CSharpParser.Attribute_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.attribute"/>.
 	/// </summary>
@@ -3790,6 +4165,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAttribute([NotNull] CSharpParser.AttributeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.attribute_name"/>.
 	/// </summary>
@@ -3800,6 +4176,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAttribute_name([NotNull] CSharpParser.Attribute_nameContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.attribute_arguments"/>.
 	/// </summary>
@@ -3810,6 +4187,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAttribute_arguments([NotNull] CSharpParser.Attribute_argumentsContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.positional_argument_list"/>.
 	/// </summary>
@@ -3820,6 +4198,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitPositional_argument_list([NotNull] CSharpParser.Positional_argument_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.positional_argument"/>.
 	/// </summary>
@@ -3830,6 +4209,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitPositional_argument([NotNull] CSharpParser.Positional_argumentContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.named_argument_list"/>.
 	/// </summary>
@@ -3840,6 +4220,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNamed_argument_list([NotNull] CSharpParser.Named_argument_listContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.named_argument"/>.
 	/// </summary>
@@ -3850,6 +4231,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitNamed_argument([NotNull] CSharpParser.Named_argumentContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.attribute_argument_expression"/>.
 	/// </summary>
@@ -3860,6 +4242,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAttribute_argument_expression([NotNull] CSharpParser.Attribute_argument_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.unsafe_modifier"/>.
 	/// </summary>
@@ -3870,6 +4253,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitUnsafe_modifier([NotNull] CSharpParser.Unsafe_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.unsafe_statement"/>.
 	/// </summary>
@@ -3880,6 +4264,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitUnsafe_statement([NotNull] CSharpParser.Unsafe_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.pointer_type"/>.
 	/// </summary>
@@ -3890,6 +4275,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitPointer_type([NotNull] CSharpParser.Pointer_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.pointer_indirection_expression"/>.
 	/// </summary>
@@ -3900,6 +4286,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitPointer_indirection_expression([NotNull] CSharpParser.Pointer_indirection_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.addressof_expression"/>.
 	/// </summary>
@@ -3910,6 +4297,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitAddressof_expression([NotNull] CSharpParser.Addressof_expressionContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.fixed_statement"/>.
 	/// </summary>
@@ -3920,6 +4308,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFixed_statement([NotNull] CSharpParser.Fixed_statementContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.fixed_pointer_declarators"/>.
 	/// </summary>
@@ -3930,6 +4319,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFixed_pointer_declarators([NotNull] CSharpParser.Fixed_pointer_declaratorsContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.fixed_pointer_declarator"/>.
 	/// </summary>
@@ -3940,6 +4330,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFixed_pointer_declarator([NotNull] CSharpParser.Fixed_pointer_declaratorContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.fixed_pointer_initializer"/>.
 	/// </summary>
@@ -3950,6 +4341,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFixed_pointer_initializer([NotNull] CSharpParser.Fixed_pointer_initializerContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.fixed_size_buffer_declaration"/>.
 	/// </summary>
@@ -3960,6 +4352,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFixed_size_buffer_declaration([NotNull] CSharpParser.Fixed_size_buffer_declarationContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.fixed_size_buffer_modifier"/>.
 	/// </summary>
@@ -3970,6 +4363,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFixed_size_buffer_modifier([NotNull] CSharpParser.Fixed_size_buffer_modifierContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.buffer_element_type"/>.
 	/// </summary>
@@ -3980,6 +4374,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitBuffer_element_type([NotNull] CSharpParser.Buffer_element_typeContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.fixed_size_buffer_declarators"/>.
 	/// </summary>
@@ -3990,6 +4385,7 @@ public interface ICSharpParserListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFixed_size_buffer_declarators([NotNull] CSharpParser.Fixed_size_buffer_declaratorsContext context);
+
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CSharpParser.fixed_size_buffer_declarator"/>.
 	/// </summary>

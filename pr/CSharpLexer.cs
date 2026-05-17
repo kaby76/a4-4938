@@ -254,12 +254,19 @@ public partial class CSharpLexer : CSharpLexerBase {
 	public override void Action(RuleContext _localctx, int ruleIndex, int actionIndex) {
 		switch (ruleIndex) {
 		case 212 : Interpolated_Regular_String_Start_action(_localctx, actionIndex); break;
+
 		case 213 : Interpolated_Regular_String_Mid_action(_localctx, actionIndex); break;
+
 		case 214 : Regular_Interpolation_Format_action(_localctx, actionIndex); break;
+
 		case 215 : Interpolated_Regular_String_End_action(_localctx, actionIndex); break;
+
 		case 218 : Interpolated_Verbatim_String_Start_action(_localctx, actionIndex); break;
+
 		case 219 : Interpolated_Verbatim_String_Mid_action(_localctx, actionIndex); break;
+
 		case 220 : Verbatim_Interpolation_Format_action(_localctx, actionIndex); break;
+
 		case 221 : Interpolated_Verbatim_String_End_action(_localctx, actionIndex); break;
 		}
 	}
@@ -306,8 +313,11 @@ public partial class CSharpLexer : CSharpLexerBase {
 	public override bool Sempred(RuleContext _localctx, int ruleIndex, int predIndex) {
 		switch (ruleIndex) {
 		case 214 : return Regular_Interpolation_Format_sempred(_localctx, predIndex);
+
 		case 220 : return Verbatim_Interpolation_Format_sempred(_localctx, predIndex);
+
 		case 227 : return Interpolated_Regular_Solitary_LBrace_sempred(_localctx, predIndex);
+
 		case 228 : return Interpolated_Verbatim_Solitary_LBrace_sempred(_localctx, predIndex);
 		}
 		return true;
@@ -315,6 +325,7 @@ public partial class CSharpLexer : CSharpLexerBase {
 	private bool Regular_Interpolation_Format_sempred(RuleContext _localctx, int predIndex) {
 		switch (predIndex) {
 		case 0: return  this.LookAheadIsRBrace1() ;
+
 		case 1: return  this.PeekModeIsIrsCont() ;
 		}
 		return true;
@@ -322,6 +333,7 @@ public partial class CSharpLexer : CSharpLexerBase {
 	private bool Verbatim_Interpolation_Format_sempred(RuleContext _localctx, int predIndex) {
 		switch (predIndex) {
 		case 2: return  this.LookAheadIsRBrace1() ;
+
 		case 3: return  this.PeekModeIsIvsCont() ;
 		}
 		return true;
